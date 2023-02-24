@@ -1,0 +1,130 @@
+#usersImgDiv
+  {
+  display: none;
+  }
+
+#usersDiv
+  {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  padding: 10px;
+  padding-top: 0px;
+  }
+
+#Layer1
+  {
+  position:absolute;
+  left:346px;
+  top:45px;
+  width:194px;
+  height:159px;
+  z-index:1;
+  }
+
+#Layer2
+  {
+  position:absolute;
+  left:742px;
+  top:33px;
+  width:158px;
+  height:16px;
+  z-index:1;
+  }
+
+a:visited
+  {
+	color: #2E2E2E;
+	text-decoration: none;
+  }
+
+a:hover
+  {
+	color: #00B9FF;
+	text-decoration: underline;
+  }
+
+a:active
+  {
+	color: #00B9FF;
+	text-decoration: none;
+  }
+
+body,td,th
+  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+  }
+
+#Layer3
+  {
+  position:absolute;
+  left:275px;
+  top:207px;
+  width:200px;
+  height:200px;
+  z-index:1;
+  }
+
+#Layer4
+  {
+  position:absolute;
+  width:200px;
+  height:115px;
+  z-index:1;
+  left: 251px;
+  top: 212px;
+  }
+
+#Layer5
+  {
+  position:absolute;
+  left:34px;
+  top:51px;
+  width:0px;
+  height:11px;
+  z-index:2;
+  }
+
+#Layer6
+  {
+  position:absolute;
+  left:26px;
+  top:149px;
+  width:90px;
+  height:139px;
+  z-index:0;
+  }
+
+.style89
+  {
+  font-size: 16px;
+  color: #666666;
+  }
+
+body
+  {
+  background-color: #FFFFFF;
+  background-repeat: repeat;
+  background-image: url();
+  }
+
+.style96
+  {
+  font-size: 16px;
+  color: #000000;
+  }
+
+.style99
+  {
+  font-size: 16px;
+  color: #FFFFFF;
+  }
+
+a:link
+  {
+	color: #2E2E2E;
+	text-decoration: none;
+  }
