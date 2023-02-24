@@ -1,9 +1,23 @@
 import React from "react";
-import './signUp.css'
-import { LOgo ,FreePlan,ProBadge,ProPlan,GreyTick,OrangeTick,LogoChange,HideMode,} from "../../Assets";
+import "./signUp.css";
+import {
+  Logo,
+  FreePlan,
+  ProBadge,
+  ProPlan,
+  GreyTick,
+  UpgradePro,
+  OrangeTick,
+  LogoChange,
+  HideMode,
+  blueline,
+  Vdots,
+  applybelow,
+  Hline,
+} from "../../Assets";
 function SignUp() {
   return (
-    <div>
+    <div className="container-xxl">
       <center>
         <div id="player1" className="player">
           <video width={400} className="center" controls autoPlay>
@@ -66,7 +80,7 @@ function SignUp() {
                                 &nbsp;&nbsp;&nbsp;&nbsp;
                                 <a href="../index_b.php?userRef=gciaake">
                                   <img
-                                    src={LOgo}
+                                    src={Logo}
                                     width={257}
                                     height={85}
                                     border={0}
@@ -127,7 +141,7 @@ function SignUp() {
                                     <tr>
                                       <td colSpan={5} valign="top">
                                         <img
-                                          src="images/blue-line.jpg"
+                                          src={blueline}
                                           width={1083}
                                           height={4}
                                           alt=""
@@ -141,7 +155,7 @@ function SignUp() {
                                       <td width={21} rowSpan={32}>
                                         <br />
                                         <br />
-                                        <img src="images/Vdots.jpg" alt="" />
+                                        <img src={Vdots} alt="" />
                                       </td>
                                       <td colSpan={2}>&nbsp;</td>
                                     </tr>
@@ -304,10 +318,10 @@ function SignUp() {
                                         colSpan={2}
                                         align="center"
                                       >
-                                        <img src="images/Hline.jpg" alt="" />
+                                        <img src={Hline} alt="" />
                                       </td>
                                       <td colSpan={2} align="center">
-                                        <img src="images/Hline.jpg" alt="" />
+                                        <img src={Hline} alt="" />
                                       </td>
                                     </tr>
                                     <tr>
@@ -771,9 +785,7 @@ function SignUp() {
                                   cellPadding={8}
                                 >
                                   <tbody>
-                                    <tr
-                                    style={{backgroundColor:"gray"}}
-                                    >
+                                    <tr style={{ backgroundColor: "gray" }}>
                                       <td width={0} bgcolor="#FFFFFF" />
                                       <td
                                         width={810}
@@ -1476,7 +1488,7 @@ function SignUp() {
                                         <span className="text22">
                                           The "Apply to all below" button
                                           <img
-                                            src="images/print-card-images/apply_below.png"
+                                            src={applybelow}
                                             width={23}
                                             height={30}
                                           />
@@ -1757,7 +1769,7 @@ function SignUp() {
                                         <div align="left">
                                           <a href="index_new_member_form.php">
                                             <img
-                                              src="images/free-plan.jpg"
+                                              src={FreePlan}
                                               width={159}
                                               height={41}
                                               border={0}
@@ -1789,7 +1801,7 @@ function SignUp() {
                                             className="style90"
                                           >
                                             <img
-                                              src="images/pro-plan.jpg"
+                                              src={ProPlan}
                                               alt="Sign Up for a single Pro membership"
                                               width={159}
                                               height={41}
@@ -1977,7 +1989,7 @@ function SignUp() {
                                             <p>
                                               <a href="multiple_accounts_1.php?userRef=gciaake">
                                                 <img
-                                                  src="images/upgrade_pro_others.jpg"
+                                                  src={UpgradePro}
                                                   alt=""
                                                   border={0}
                                                 />
@@ -2046,571 +2058,8 @@ function SignUp() {
             </tr>
           </tbody>
         </table>
-        <div>
-        <div id="proHideDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('Hide')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/popup_1_logo.gif" /></td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text22 bold black" style={{paddingTop: '20px', paddingLeft: '30px'}}>
-                      Hide Mode</td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text18 grey" style={{paddingTop: '5px', paddingLeft: '30px', paddingRight: '30px'}}>
-                      Select exercises to toggle them as "hidden" or "shown" from the browsing pages. When your finished, click the "DONE" button.
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proExsDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('Exs')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/popup_1_logo.gif" /></td>
-                  </tr>
-                  <tr>
-                    <td align="left" valign="top" className="text22 bold black" style={{paddingTop: '30px', paddingLeft: '30px'}}>
-                      Hide Mode</td>
-                  </tr>
-                  <tr>
-                    <td align="left" valign="top" className="text18 grey" style={{paddingTop: '5px', paddingLeft: '30px', paddingRight: '30px'}}>
-                      Select any exercises and hide them from the category pages for a faster browsing experience<br /><br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://www.hep2go.com/images/hide-mode-small-2.png" border={0} />
-                    </td>
-                  </tr>
-                </tbody></table>
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center" valign="top" className="text22 bold black" style={{paddingTop: '20px', paddingLeft: '10px', paddingBottom: '10px'}}>
-                      Pro Membership Required
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top">
-                      <a href="/register_options.php?userRef=gciaake"><img src="https://www.hep2go.com/images/get_pro.png" border={0} /></a>
-                    </td>
-                  </tr>
-                </tbody></table>
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center" valign="top" className="text14 grey" style={{paddingBottom: '10px', paddingTop: '0px', paddingLeft: '10px'}}><br />
-                      <br />
-                      Already a PRO member? <a href="/log-in-2.php" className="link16 bold black">Sign In</a>
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proRoutinesDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('Routines')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text22 bold black" style={{paddingTop: '20px', paddingLeft: '10px'}}>
-                      You already have 2 saved routines
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text18 grey" style={{paddingTop: '10px'}}>
-                      Get PRO for Saving Unlimited Routines
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" style={{paddingTop: '5px', paddingLeft: '10px'}}>
-                      <a href="/register_options.php?userRef=gciaake"><img src="https://www.hep2go.com/images/get_pro.png" border={0} /></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text14 grey" style={{paddingTop: '20px', paddingLeft: '10px'}}>
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proShareDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('Share')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/popup_1_logo.gif" /></td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text22 bold black" style={{paddingTop: '20px', paddingLeft: '30px'}}>
-                      Share Your Saved Routines
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text14 grey" style={{paddingTop: '5px', paddingLeft: '30px'}}>
-                      Allow only specific members access to your saved routines. 
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text18 bold black" style={{paddingTop: '30px', paddingLeft: '10px'}}>
-                      Sign Up for HEP2go PRO
-                    </td>
-                  </tr>
-                  <tr>
-                  </tr><tr>
-                    <td align="center" valign="top" style={{paddingTop: '5px'}}>
-                      <a href="/register_options.php?userRef=gciaake"><img src="https://www.hep2go.com/images/get_pro.png" border={0} /></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text14 grey" style={{paddingTop: '20px', paddingLeft: '10px'}}>
-                      Already a PRO member? <a href="/log-in-2.php" className="link14 bold grey">Sign In</a>
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proShareExsDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('ShareExs')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/popup_1_logo.gif" /></td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text22 bold black" style={{paddingTop: '20px', paddingLeft: '10px'}}>
-                      Share Your Private Exercises
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text14 grey" style={{paddingTop: '5px'}}>
-                      Allow only specific members access to your private exercises.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text18 bold black" style={{paddingTop: '30px', paddingLeft: '10px'}}>
-                      Sign Up for HEP2go PRO
-                    </td>
-                  </tr>
-                  <tr>
-                  </tr><tr>
-                    <td align="center" valign="top" style={{paddingTop: '5px'}}>
-                      <a href="/register_options.php?userRef=gciaake"><img src="https://www.hep2go.com/images/get_pro.png" border={0} /></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text14 grey" style={{paddingTop: '20px', paddingLeft: '10px'}}>
-                      Already a PRO member? <a href="/log-in-2.php" className="link14 bold grey">Sign In</a>
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proCustomizeDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('Customize')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/popup_1_logo.gif" /></td>
-                  </tr>
-                  <tr>
-                    <td align="left" valign="top" className="text22 bold black" style={{paddingTop: '30px', paddingLeft: '23px'}}>
-                      Logo and color theme</td>
-                  </tr>
-                  <tr>
-                    <td align="left" valign="top" className="text18 grey" style={{paddingTop: '5px', paddingLeft: '23px', paddingRight: '20px'}}>
-                      Customize logo and theme color on HEPs for print, e-mail, Text, or QR Delivery.<br /><br />
-                      <img src="https://www.hep2go.com/images/change-logo-small-2.png" />
-                    </td>
-                  </tr>
-                </tbody></table>
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center" valign="top" className="text22 bold black" style={{paddingTop: '20px', paddingLeft: '10px'}}>
-                      Pro Membership Required
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" style={{paddingTop: '5px'}}>
-                      <a href="/register_options.php?userRef=gciaake"><img src="https://www.hep2go.com/images/get_pro.png" border={0} /></a>
-                    </td>
-                  </tr>
-                </tbody></table>
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center" valign="top" className="text14 grey" style={{paddingBottom: '10px', paddingLeft: '10px'}}><br />
-                      Already a PRO member? <a href="/log-in-2.php" className="link16 bold black">Sign In</a>
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proLoginDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('Login')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center" style={{paddingLeft: '10px'}}><img src="https://www.hep2go.com/images/popup_2_logo.gif" />&nbsp;&nbsp;&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td align="left" valign="top" className="text18 black" style={{paddingTop: '20px', paddingLeft: '20px', paddingRight: '15px'}}>
-                      Print home exercise programs for <strong>FREE</strong>.&nbsp; Please log in or sign up to use this feature.<br /><br />
-                      <br />
-                      <center><button type="button" onclick="goFullLogin();" style={{backgroundColor: '#00b9ff', color: '#fff', fontSize: '16px', height: '40px', border: '0px', width: '150px'}}>LOGIN</button></center>
-                      <br />
-                    </td>
-                  </tr>
-                </tbody></table>
-              {/*
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="75" align="left" valign="middle" class="text14 bold grey" style="padding-top: 20px; padding-left: 80px;">
-Email:
-</td>
-<td align="left" valign="middle" style="padding-top: 20px; padding-left: 10px;">
-<input id="f_email" name="f_email" type="text" style="width: 150px;" onkeypress="proKeypress(event)" />
-</td>
-<td align="left" valign="bottom" style="padding-left: 5px;"><div id="proUsersImgDiv"><a href="javascript: proShowUsers();"><img src="https://www.hep2go.com/images/arrow_down2.gif" alt="Remembered Email List" width="20" border="0" /></a></div></td>
-</tr>
-<tr>
-<td align="left" valign="middle" class="text14 bold grey" style="padding-top: 10px; padding-left: 80px;">
-Password:
-</td>
-<td align="left" valign="middle" style="padding-top: 10px; padding-left: 10px;">
-<input id="f_pass" name="f_pass" type="password" style="width: 150px;" onkeypress="proKeypress(event)" />
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td align="left" valign="middle" style="padding-left: 9px; padding-top: 10px;"><input id="f_remember_me" name="f_remember_me" type="checkbox" value="1" /><span class="style96" style="padding-left: 5px;">Remember Email</span></td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td align="left" valign="middle" style="padding-top: 10px; padding-left: 10px;">
-<input name="" type="button" value="Login" onclick="goProLogin()" />
-</td>
-<td>&nbsp;</td>
-</tr>
-</table>
-
-*/}
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center" valign="top" className="text14 grey" style={{paddingTop: '20px'}}><br />
-                      Not a Member? <a href="/register_options.php?userRef=gciaake" className="link14 bold grey">Sign Up</a>
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proExsHideDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('ExsHide')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td style={{paddingLeft: '20px'}}><img src="https://www.hep2go.com/images/popup_1_logo.gif" /></td>
-                  </tr>
-                  <tr>
-                    <td align="left" valign="top" className="text18 bold black" style={{paddingTop: '30px', paddingLeft: '30px', paddingRight: '30px'}}>
-                      You are in "Hide Mode", toggle exercises as "shown" or "hidden" by clicking on an exercise image.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="right" valign="top" className="text18 bold black" style={{paddingTop: '30px', paddingLeft: '30px', paddingRight: '20px'}}>
-                      <input name type="button" defaultValue="OK" onclick="closePro('ExsHide')" style={{width: '60px'}} />
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proPayPalRedirectDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('PayPalRedirect')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/logo_secure.jpg" /></td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text20 bold black" style={{paddingTop: '30px'}}>
-                      Pay by Credit Card, Debit Card<br />
-                      OR with a paypal account
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" style={{paddingTop: '20px'}}>
-                      <img src="https://www.hep2go.com/images/credit_cards.jpg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text16 black" style={{paddingTop: '20px'}}>
-                      You will now be redirected to<br />
-                      PayPal"s Secure Payment<br />
-                      Process..
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" style={{paddingTop: '30px'}}>
-                      <input id="paypalOKBtn" name="paypalOKBtn" type="button" defaultValue="OK" onclick="window.location.href='../multiple_accounts_0.php?userRef=gciaake&period=monthly'" style={{width: '60px'}} />
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proPayPalRedirectYearDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('PayPalRedirectYear')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/logo_secure.jpg" /></td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text20 bold black" style={{paddingTop: '30px'}}>
-                      Pay by Credit Card, Debit Card<br />
-                      OR with a paypal account
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" style={{paddingTop: '20px'}}>
-                      <img src="https://www.hep2go.com/images/credit_cards.jpg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text16 black" style={{paddingTop: '20px'}}>
-                      You will now be redirected to<br />
-                      PayPal"s Secure Payment<br />
-                      Process..
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" style={{paddingTop: '30px'}}>
-                      <input id="paypalOKBtn" name="paypalOKBtn" type="button" defaultValue="OK" onclick="window.location.href='../multiple_accounts_0.php?userRef=gciaake&period=annually'" style={{width: '60px'}} />
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proPayPalRedirectNameDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('PayPalRedirectName')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/logo_secure.jpg" /></td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text20 bold black" style={{paddingTop: '30px'}}>
-                      Pay by Credit Card, Debit Card<br />
-                      OR with a paypal account
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" style={{paddingTop: '20px'}}>
-                      <img src="https://www.hep2go.com/images/credit_cards.jpg" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text16 black" style={{paddingTop: '20px'}}>
-                      You will now be redirected to<br />
-                      PayPal"s Secure Payment<br />
-                      Process..
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" style={{paddingTop: '30px'}}>
-                      <input id="paypalOKBtn" name="paypalOKBtn" type="button" defaultValue="OK" onclick="window.location.href='http://www.hep2go.com/paypal/post.php?userRef=gciaake&kind=name'" style={{width: '60px'}} />
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proPayPalUpgradedDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('PayPalUpgraded')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/popup_1_logo.gif" /></td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text20 bold black" style={{paddingTop: '30px'}}>
-                      You Have Signed Up for<br />
-                      <span className="green">HEP2go PRO</span><br />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="left" valign="top" className="text18 black" style={{paddingTop: '30px', paddingLeft: '10px', paddingRight: '10px'}}>
-                      <span className="bold">Instructions:</span> Please refresh your browser after a few minutes. HEP2go Pro features are not activated until we receive payment confirmation.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" className="red" style={{paddingTop: '20px'}}>This may take a few minutes...
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" style={{paddingTop: '30px'}}>
-                      <input name type="button" defaultValue="OK" onclick="closePro('PayPalUpgraded')" style={{width: '60px'}} />
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proNewEmailDiv" className="proPopup1Background" style={{position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('NewEmail')" />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/popup_1_logo.gif" /></td>
-                  </tr>
-                  <tr>
-                    <td align="left" valign="top" className="text18 grey" style={{paddingTop: '5px', paddingLeft: '30px', paddingRight: '30px'}}><br />
-                      You have attempted to change the email address associated with your account. An email has been sent to you at the new email address. <br />
-                      <br />
-                      Please confirm and activate the new email address with the link provided in the email we sent you. <br />
-                      <br />
-                      Please note... the password has not changed.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text18 bold black" style={{paddingTop: '30px', paddingRight: '10px'}}>
-                      <input name type="button" defaultValue="OK" onclick="closePro('NewEmail')" style={{width: '60px'}} />
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proRoutineMaxNamesDiv" className="proPopup1Background" style={{width: '400px', position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('RoutineMaxNames')" style={{left: '352px'}} />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/popup_2_logo.gif" /></td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text18 grey" style={{paddingTop: '30px', paddingLeft: '20px', paddingRight: '20px'}}>
-                      You currently have a Free membership. Only 2 routine names are available with a Free membership. You can still save this routine, but you cannot change its name.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text18 bold black" style={{paddingTop: '30px', paddingBottom: '10px'}}>
-                      <a href="javascript: closePro('RoutineMaxNames');"><img src="https://www.hep2go.com/my_routines/images/btn_ok_free.gif" border={0} /></a>
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proRoutineSaveUnSharedExsDiv" className="proPopup1Background" style={{width: '400px', position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('RoutineRoutineSaveUnSharedExs')" style={{left: '352px'}} />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="center"><img src="https://www.hep2go.com/images/popup_2_logo.gif" /></td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="top" className="text18 grey" style={{paddingTop: '30px', paddingLeft: '20px', paddingRight: '20px'}}>
-                      You are trying to save a routine that has exercises that weren't shared to you. These exercises won't be visible in your routine.
-                    </td>
-                  </tr>
-                </tbody></table>
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="right" valign="top" className="text18 bold black" style={{paddingTop: '30px', paddingBottom: '10px', paddingRight: '10px'}}>
-                      <a href="javascript: closePro('RoutineSaveUnSharedExs');"><img src="https://www.hep2go.com/my_routines/images/btn_cancel_pro.gif" border={0} /></a>
-                    </td>
-                    <td align="left" valign="top" className="text18 bold black" style={{paddingTop: '30px', paddingBottom: '10px', paddingLeft: '10px'}}>
-                      <a href="javascript: closePro('RoutineSaveUnSharedExs'); goSaveRoutine_1();"><img src="https://www.hep2go.com/my_routines/images/btn_save_pro.gif" border={0} /></a>
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proPayPalSelectMonthDiv" className="proPopup1Background" style={{width: '500px', position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('PayPalSelectMonth')" style={{left: '452px'}} />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="left" valign="top" className="text24 bold" style={{paddingLeft: '30px', paddingTop: '30px', paddingBottom: '5px'}}>
-                      Choose a payment method
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="left" valign="top" style={{paddingLeft: '30px', paddingTop: '5px', paddingBottom: '30px'}}>
-                      Do not change your payment method on the next screen
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="middle" style={{padding: '20px'}}>
-                      <div id="f_cc" align="center" className="settingsButton buttonEnabled" style={{width: '275px', height: '35px', paddingTop: '15px'}} onclick="window.location.href='http://www.hep2go.com/multiple_accounts_0.php?userRef=gciaake&tender=c&period=monthly'">Credit Card or Bank Card</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="middle" style={{padding: '20px', paddingBottom: '90px'}}>
-                      <div id="f_pp" align="center" className="settingsButton buttonEnabled" style={{width: '275px', height: '35px', paddingTop: '15px'}} onclick="window.location.href='http://www.hep2go.com/multiple_accounts_0.php?userRef=gciaake&tender=p&period=monthly'">PayPal Account</div>
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proPayPalSelectYearDiv" className="proPopup1Background" style={{width: '500px', position: 'absolute', display: 'none', zIndex: 2001}}>
-          <div className="proPopup1CloseDiv" onclick="closePro('PayPalSelectYear')" style={{left: '452px'}} />
-          <div className="proPopup1BorderMiddle">
-            <div className="proPopup1BorderInner">
-              <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
-                <tbody><tr>
-                    <td align="left" valign="top" className="text24 bold" style={{paddingLeft: '30px', paddingTop: '30px', paddingBottom: '50px'}}>
-                      Choose a payment method
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="middle" style={{padding: '20px'}}>
-                      <div id="f_cc_y" align="center" className="settingsButton buttonEnabled" style={{width: '275px', height: '35px', paddingTop: '15px'}} onclick="window.location.href='http://www.hep2go.com/multiple_accounts_0.php?userRef=gciaake&tender=c&period=annually'">Credit Card or Bank Card</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center" valign="middle" style={{padding: '20px', paddingBottom: '90px'}}>
-                      <div id="f_pp_y" align="center" className="settingsButton buttonEnabled" style={{width: '275px', height: '35px', paddingTop: '15px'}} onclick="window.location.href='http://www.hep2go.com/multiple_accounts_0.php?userRef=gciaake&tender=p&period=annually'">PayPal Account</div>
-                    </td>
-                  </tr>
-                </tbody></table>
-            </div>
-          </div>
-        </div>
-        <div id="proUsersDiv" />
-      </div>
       </center>
     </div>
-
   );
 }
 

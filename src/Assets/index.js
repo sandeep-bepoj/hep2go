@@ -11,5 +11,10 @@ import OrangeTick from  './orange-tick-white.jpg'
 import LogoChange from './logo-change-small3.jpg'
 import HideMode from './hide-mode-small.jpg'
 import Logo from './2022-logo-blue-medium.png'
+import UpgradePro from'./upgrade_pro_others.jpg'
+import Vdots from './Vdots.jpg'
+import blueline from './blue-line.jpg'
+import Hline from './Hline.jpg'
+import applybelow from './apply_below.png'
 
-export { TryoutImg,loginimg,signup,LoginIm,Signup,LOgo}
+export { TryoutImg,loginimg,signup,LoginIm,Signup,Vdots,Hline,applybelow,blueline,UpgradePro,FreePlan,ProBadge,ProPlan,GreyTick,OrangeTick,LogoChange,HideMode,Logo}

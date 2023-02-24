@@ -50,7 +50,7 @@ function Home() {
                       </tr>
                       <tr>
                         <td height={622} colSpan={3} align="center">
-                          <Link href="index_enter.php">
+                          <Link to="/aggrement">
                             <img
                               src={TryoutImg}
                               width={1100}
