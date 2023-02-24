@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./signUp.css";
 import {
   Logo,
@@ -218,14 +219,14 @@ function SignUp() {
                                             <tr>
                                               <td width={294} height={26}>
                                                 <div align="center">
-                                                  <a href="index_new_member_form.php">
+                                                  <Link to="/new-member-form-free">
                                                     <img
                                                       src={FreePlan}
                                                       width={159}
                                                       height={41}
                                                       border={0}
                                                     />
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </td>
                                             </tr>
@@ -246,8 +247,8 @@ function SignUp() {
                                             <tr>
                                               <td width={294} height={26}>
                                                 <div align="center">
-                                                  <a
-                                                    href="index_new_member_form_pro.php?userRef=gciaake"
+                                                  <Link
+                                                    to="/new-member-form-pro"
                                                     className="style90"
                                                   >
                                                     <br />
@@ -258,7 +259,7 @@ function SignUp() {
                                                       height={41}
                                                       border={0}
                                                     />
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </td>
                                             </tr>
@@ -1767,14 +1768,14 @@ function SignUp() {
                                         bgcolor="#FFFFFF"
                                       >
                                         <div align="left">
-                                          <a href="index_new_member_form.php">
+                                        <Link to="/new-member-form-free">
                                             <img
                                               src={FreePlan}
                                               width={159}
                                               height={41}
                                               border={0}
                                             />
-                                          </a>
+                                          </Link>
                                           <br />
                                           <br />
                                           <span className="text20">
@@ -1796,10 +1797,9 @@ function SignUp() {
                                         bgcolor="#FFFFFF"
                                       >
                                         <div align="left">
-                                          <a
-                                            href="index_new_member_form_pro.php"
-                                            className="style90"
-                                          >
+                                        <Link className="style90" to="/new-member-form-pro">
+                                            
+                                          
                                             <img
                                               src={ProPlan}
                                               alt="Sign Up for a single Pro membership"
@@ -1807,7 +1807,7 @@ function SignUp() {
                                               height={41}
                                               border={0}
                                             />
-                                          </a>
+                                          </Link>
                                           <br />
                                           <br />
                                           <span className="text20">

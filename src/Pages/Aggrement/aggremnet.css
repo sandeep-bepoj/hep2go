@@ -1,157 +1,141 @@
 #Layer1 {
+  position: absolute;
 
-	position:absolute;
+  left: 346px;
 
-	left:346px;
+  top: 45px;
 
-	top:45px;
+  width: 194px;
 
-	width:194px;
+  height: 159px;
 
-	height:159px;
-
-	z-index:1;
-
+  z-index: 1;
 }
 
 #Layer2 {
+  position: absolute;
 
-	position:absolute;
+  left: 742px;
 
-	left:742px;
+  top: 33px;
 
-	top:33px;
+  width: 158px;
 
-	width:158px;
+  height: 16px;
 
-	height:16px;
-
-	z-index:1;
-
+  z-index: 1;
 }
 
 a:link {
-	color: #FF9900;
-	text-decoration: none;
+  color: #ff9900;
+  text-decoration: none;
 }
 
 a:visited {
-	color: #FF9900;
-	text-decoration: none;
+  color: #ff9900;
+  text-decoration: none;
 }
 
 a:hover {
-	color: #FF9900;
-	text-decoration: underline;
+  color: #ff9900;
+  text-decoration: underline;
 }
 
 a:active {
-	color: #FF9900;
-	text-decoration: none;
+  color: #ff9900;
+  text-decoration: none;
 }
 
-body,td,th {
+body,
+td,
+th {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
 
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
 
-	font-size: 14px;
-
-	color: #000000;
-
+  color: #000000;
 }
 
 #Layer3 {
+  position: absolute;
 
-	position:absolute;
+  left: 275px;
 
-	left:275px;
+  top: 207px;
 
-	top:207px;
+  width: 200px;
 
-	width:200px;
+  height: 200px;
 
-	height:200px;
-
-	z-index:1;
-
+  z-index: 1;
 }
 
 #Layer4 {
+  position: absolute;
 
-	position:absolute;
+  width: 200px;
 
-	width:200px;
+  height: 115px;
 
-	height:115px;
+  z-index: 1;
 
-	z-index:1;
+  left: 251px;
 
-	left: 251px;
-
-	top: 212px;
-
+  top: 212px;
 }
 
 #Layer5 {
+  position: absolute;
 
-	position:absolute;
+  left: 34px;
 
-	left:34px;
+  top: 51px;
 
-	top:51px;
+  width: 0px;
 
-	width:0px;
+  height: 11px;
 
-	height:11px;
-
-	z-index:2;
-
+  z-index: 2;
 }
 
 #Layer6 {
+  position: absolute;
 
-	position:absolute;
+  left: 26px;
 
-	left:26px;
+  top: 149px;
 
-	top:149px;
+  width: 90px;
 
-	width:90px;
+  height: 139px;
 
-	height:139px;
-
-	z-index:0;
-
+  z-index: 0;
 }
 
 .style89 {
+  font-size: 10px;
 
-	font-size: 10px;
-
-	color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 body {
+  background-color: #ffffff;
 
-	background-color: #ffffff;
-
-
-	background-repeat: repeat;
-
+  background-repeat: repeat;
 }
 
-.style92 {font-size: 12px}
+.style92 {
+  font-size: 12px;
+}
 .style95 {
-	font-size: 16px;
-	font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 }
 .style96 {
-	font-size: 12px;
-	font-weight: bold;
+  font-size: 12px;
+  font-weight: bold;
 }
 .style97 {
-	
-	font-weight: bold;
-	font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
