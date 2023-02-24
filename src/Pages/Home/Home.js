@@ -1,6 +1,8 @@
 import React from 'react'
 import './home.css'
 import {TryoutImg,loginimg,signup} from '../.././Assets'
+import {Link} from "react-router-dom"
+
 function Home() {
   return (
     <div>
@@ -21,7 +23,7 @@ function Home() {
                           <td height={2} colSpan={3} />
                         </tr>
                         <tr>
-                          <td height={622} colSpan={3} align="center"><a href="index_enter.php"><img src={TryoutImg} width={1100} height={600} alt="" /></a></td>
+                          <td height={622} colSpan={3} align="center"><Link href="index_enter.php"><img src={TryoutImg} width={1100} height={600} alt="" /></Link></td>
                         </tr>
                         <tr>
                           <td width={896} height={177} rowSpan={2} align="right" valign="top" bgcolor="#FFFFFF"><table width={821} border={0}>
@@ -35,7 +37,7 @@ function Home() {
                                 </tr>
                               </tbody></table></td>
                           <td width={97} height={44} align="right" valign="middle" bgcolor="#FFFFFF"><a href="log-in-2.php?userRef=gciaake"><img src={loginimg} width={52} height={52} border={0} /></a></td>
-                          <td width={297} align="left" valign="middle" bgcolor="#FFFFFF"><a href="log-in-2.php?userRef=gciaake">&nbsp;&nbsp;<span className="style137">Log in</span></a></td>
+                          <td width={297} align="left" valign="middle" bgcolor="#FFFFFF"><Link to='/login'>&nbsp;&nbsp;<span className="style137">Log in</span></Link></td>
                         </tr>
                         <tr>
                           <td height={44} align="right" valign="middle" bgcolor="#FFFFFF"><a href="register_options.php?userRef=' . $userRef . '"><span className="style137"><img src={signup} width={52} height={52} border={0} /></span></a></td>
