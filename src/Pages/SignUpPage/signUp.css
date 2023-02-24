@@ -1,0 +1,128 @@
+#dimmerAdDiv
+  {
+  display: none;
+  position: absolute;
+  z-index: 5000;
+  background-color: #000000;
+  filter: alpha(opacity=50);
+  opacity: .5;
+  left: 0px;
+  top: 0px;
+  }
+
+#adDiv
+  {
+  display: none;
+  position: absolute;
+  z-index: 5001;
+  background-color: #000000;
+  left: 0px;
+  top: 0px;
+  }
+
+#adCloseDiv
+  {
+  display: none;
+  position: absolute;
+  z-index: 5002;
+  top: 5px;
+  left: 5px;
+  width: 45px;
+  height: 45px;
+  background-image: url(https://www.hep2go.com/images/ad_close.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  }
+
+
+	.player {
+		display: none;
+  		position: fixed;
+    		top: 2%;
+    		left: 35%;
+    		margin-top: 0px;
+    		margin-left: 0px;
+    		height: auto;
+		z-index: 9999;
+	}
+	#player2 {
+		margin-left: -11%;
+	}
+	#player3 {
+		margin-left: -10.8%;
+	}
+	#player4 {
+		margin-left: -10.85%;
+	}
+	.center { margin: 0 auto; }
+body
+  {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-color: #F6F6F6;
+  }
+body,td,th {
+	color: #666666;
+}
+a:link {
+	color: #00B9FF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #00B9FF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF9900;
+}
+a:active {
+	text-decoration: none;
+	color: #FF9900;
+}
+.style2 {font-size: 14px}
+.style12 {font-size: 14}
+.style13 {font-size: 10px}
+.style80 {font-size: 18px; color: #009900 }
+a {
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  #proUsersImgDiv
+    {
+    display: none;
+    }
+  
+  #proUsersDiv
+    {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 10px;
+    padding-top: 0px;
+    z-index: 2002;
+    }
