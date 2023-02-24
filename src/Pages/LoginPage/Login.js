@@ -1,5 +1,5 @@
 import React from 'react'
-import {LoginIm,Signup,LOgo} from '../.././Assets'
+import {LoginIm,Signup,Logo} from '../.././Assets'
 function Login() {
   return (
     <div>
@@ -27,7 +27,7 @@ function Login() {
                     <tr>
                       {/*td height="281" rowspan="11">&nbsp;</td*/}
                       <td height={251} colSpan={2} rowSpan={3} align="left" valign="top" />
-                      <td height={224} colSpan={3} align="left" valign="middle"><a href="http://www.hep2go.com/index.php?userRef=gciaake"><img src={LOgo} width={260} height={86} border={0} /></a></td>
+                      <td height={224} colSpan={3} align="left" valign="middle"><img src={Logo} alt="hpe2go" width={260} height={86} border={0} /></td>
                       <td height={224} align="left" valign="top">&nbsp;</td>
                       <td rowSpan={3}>&nbsp;</td>
                     </tr>
