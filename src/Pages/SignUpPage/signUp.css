@@ -26,7 +26,7 @@
   left: 5px;
   width: 45px;
   height: 45px;
-  background-image: url(https://www.hep2go.com/images/ad_close.png);
+  /* background-image: url(https://www.hep2go.com/images/ad_close.png); */
   background-repeat: no-repeat;
   cursor: pointer;
 }
@@ -54,7 +54,6 @@
   margin: 0 auto;
 }
 body {
-  background-image: url();
   background-repeat: no-repeat;
   background-color: #f6f6f6;
 }
