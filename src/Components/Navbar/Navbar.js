@@ -25,7 +25,7 @@ function Navbar() {
                     </tbody></table>
                 </div>
               </td>
-              <td width={272} align="left" valign="middle" background="https://www.hep2go.com/buttons/search_end_bbb.jpg" bgcolor="#000000" style={{paddingRight: '5px'}}><a href="javascript: goSearch();" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('searchImg','','https://www.hep2go.com/buttons/mag_glass_bbb.jpg',1)"><img src="https://www.hep2go.com/buttons/mag_glass_bbb.jpg" alt="Search Site" id="searchImg" name="searchImg" width={26} height={46} border={0} /></a> </td>
+              <td width={272} align="left" valign="middle" background="https://www.hep2go.com/buttons/search_end_bbb.jpg" bgcolor="#000000" style={{paddingRight: '5px'}}><img src="https://www.hep2go.com/buttons/mag_glass_bbb.jpg" alt="Search Site" id="searchImg" name="searchImg" width={26} height={46} border={0} /></td>
             </tr>
           </tbody></table>
         <table width={745} border={0} cellPadding={0} cellSpacing={0}>
