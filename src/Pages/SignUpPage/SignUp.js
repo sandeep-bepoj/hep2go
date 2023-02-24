@@ -82,23 +82,12 @@ function SignUp() {
                                 <a href="../index_b.php?userRef=gciaake">
                                   <img
                                     src={Logo}
+                                    alt="logo"
                                     width={257}
                                     height={85}
                                     border={0}
                                   />{" "}
                                 </a>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td
-                                height={44}
-                                colSpan={2}
-                                bgcolor="#F6F6F6"
-                                className="text12 white"
-                              >
-                                &nbsp;&nbsp;&nbsp;
-                                <a href="index_b.php" />
-                                &nbsp;&nbsp;&nbsp;
                               </td>
                             </tr>
                             <tr>
@@ -174,7 +163,7 @@ function SignUp() {
                                         align="center"
                                         className="text30"
                                       >
-                                        <img src={ProBadge} />
+                                        <img src={ProBadge} alt="pro badge" />
                                       </td>
                                     </tr>
                                     <tr>
@@ -222,6 +211,7 @@ function SignUp() {
                                                   <Link to="/new-member-form-free">
                                                     <img
                                                       src={FreePlan}
+                                                      alt="free plan"
                                                       width={159}
                                                       height={41}
                                                       border={0}
@@ -828,7 +818,7 @@ function SignUp() {
                                           fontSize: "28px",
                                         }}
                                       >
-                                        <img src={ProBadge} />
+                                        <img src={ProBadge} alt="badge" />
                                       </td>
                                       <td
                                         width={3}
@@ -869,6 +859,7 @@ function SignUp() {
                                       >
                                         <img
                                           src={GreyTick}
+                                          alt="grey tick"
                                           width={40}
                                           height={40}
                                         />
@@ -881,6 +872,7 @@ function SignUp() {
                                       >
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -916,6 +908,7 @@ function SignUp() {
                                       <td align="center" bgcolor="#FFF">
                                         <img
                                           src={GreyTick}
+                                          alt="grey tick"
                                           width={40}
                                           height={40}
                                         />
@@ -924,6 +917,7 @@ function SignUp() {
                                       <td align="center" bgcolor="#FFF">
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -955,6 +949,7 @@ function SignUp() {
                                       <td align="center" bgcolor="#FFFFFF">
                                         <img
                                           src={GreyTick}
+                                          alt="grey tick"
                                           width={40}
                                           height={40}
                                         />
@@ -963,6 +958,7 @@ function SignUp() {
                                       <td align="center" bgcolor="#FFFFFF">
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1010,6 +1006,7 @@ function SignUp() {
                                       <td align="center" bgcolor="#FFFFFF">
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1062,6 +1059,7 @@ function SignUp() {
                                       >
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1110,6 +1108,7 @@ function SignUp() {
                                       <td align="center" bgcolor="#FFF">
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1163,6 +1162,7 @@ function SignUp() {
                                       <td align="center" className="options">
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1243,6 +1243,7 @@ function SignUp() {
                                           <br />
                                           <img
                                             src={LogoChange}
+                                            alt="logo"
                                             width={687}
                                             height={232}
                                           />
@@ -1296,6 +1297,7 @@ function SignUp() {
                                         <br />
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1330,6 +1332,7 @@ function SignUp() {
                                         <br />
                                         <img
                                           src={HideMode}
+                                          alt="orange tick"
                                           width={641}
                                           height={194}
                                         />{" "}
@@ -1365,6 +1368,7 @@ function SignUp() {
                                         <br />
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1396,12 +1400,9 @@ function SignUp() {
                                             from public use.{" "}
                                           </span>
                                           <br />
-                                          <a href="details-share.php"></a>
-                                          <a href="details-share.php?userRef=gciaake">
                                             <left>
                                               <b>Details</b>
                                             </left>
-                                          </a>
                                         </p>
                                       </td>
                                       <td align="center" className="options">
@@ -1418,6 +1419,7 @@ function SignUp() {
                                       <td align="center" className="options">
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1466,6 +1468,7 @@ function SignUp() {
                                       <td align="center" className="options">
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1490,6 +1493,7 @@ function SignUp() {
                                           The "Apply to all below" button
                                           <img
                                             src={applybelow}
+                                            alt="orange tick"
                                             width={23}
                                             height={30}
                                           />
@@ -1499,13 +1503,10 @@ function SignUp() {
                                           below it while on the Exercise Editor
                                           Page. This dramatically increases the
                                           speed of creating HEPs. &nbsp;
-                                          <a
-                                            href="javascript:void(0)"
-                                            onclick="playMobileExample(4)"
-                                          >
+                                          
                                             <br />
                                             <b>Watch Video</b>
-                                          </a>
+                                          
                                         </span>
                                       </td>
                                       <td align="center" className="options">
@@ -1522,6 +1523,7 @@ function SignUp() {
                                       <td align="center" className="options">
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1550,13 +1552,10 @@ function SignUp() {
                                           using the power of a fully integrated
                                           Google Translate API feature with the
                                           click of a button. &nbsp;
-                                          <a
-                                            href="javascript:void(0)"
-                                            onclick="playMobileExample(3)"
-                                          >
+                                          
                                             <br />
                                             <b>Watch Video</b>
-                                          </a>
+                                          
                                         </span>
                                       </td>
                                       <td align="center" className="options">
@@ -1573,6 +1572,7 @@ function SignUp() {
                                       <td align="center" className="options">
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1601,14 +1601,11 @@ function SignUp() {
                                           use their smart phone for a user
                                           friendly smart phone layout using
                                           their phone's browser.{" "}
-                                          <a
-                                            href="javascript:void(0)"
-                                            onclick="playMobileExample(1)"
-                                          >
+                                          
                                             {" "}
                                             <br />
                                             <b>Watch Video</b>
-                                          </a>
+                                          
                                         </span>
                                         <br />
                                       </td>
@@ -1626,6 +1623,7 @@ function SignUp() {
                                       <td align="center" className="options">
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1671,6 +1669,7 @@ function SignUp() {
                                       <td align="center" className="options">
                                         <img
                                           src={OrangeTick}
+                                          alt="orange tick"
                                           width={40}
                                           height={40}
                                         />
@@ -1771,6 +1770,7 @@ function SignUp() {
                                         <Link to="/new-member-form-free">
                                             <img
                                               src={FreePlan}
+                                              alt="free plan"
                                               width={159}
                                               height={41}
                                               border={0}
@@ -1841,9 +1841,7 @@ function SignUp() {
                                             <span className="text20">
                                               Want to upgrade your existing
                                               account. Please{" "}
-                                              <a href="log-in-2.php?userRef=gciaake">
                                                 <strong>log in</strong>
-                                              </a>{" "}
                                               first
                                             </span>
                                           </p>
@@ -1956,9 +1954,9 @@ function SignUp() {
                                               <br />
                                               <br />
                                               <em>
-                                                <a href="pro-staff.php?userRef=gciaake">
+                                                
                                                   <strong>Learn More</strong>
-                                                </a>
+                                                
                                               </em>
                                             </p>
                                             <span className="text20" />
@@ -1987,13 +1985,12 @@ function SignUp() {
                                             </span>
                                             .<br />
                                             <p>
-                                              <a href="multiple_accounts_1.php?userRef=gciaake">
+                                              
                                                 <img
                                                   src={UpgradePro}
                                                   alt=""
                                                   border={0}
                                                 />
-                                              </a>
                                               <br />
                                               <br />
                                             </p>
@@ -2014,14 +2011,7 @@ function SignUp() {
                                               <p>
                                                 <br />
                                                 <br />
-                                                <a
-                                                  href="javascript: history.back(1);"
-                                                  title="Go Back To Previous Page"
-                                                  className="link18"
-                                                  style={{ color: "#00B9FF" }}
-                                                >
                                                   <u>Back To Previous Page</u>
-                                                </a>
                                                 <br />
                                                 <br />
                                               </p>

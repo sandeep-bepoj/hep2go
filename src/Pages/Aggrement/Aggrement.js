@@ -40,7 +40,7 @@ const Aggrement = () => {
                         <td>&nbsp;</td>
                         <td align="center">
                           <a href="index.php">
-                            <img src={Logo} width={254} height={84} />
+                            <img src={Logo} alt="logo" width={254} height={84} />
                           </a>
                         </td>
                         <td>&nbsp;</td>
@@ -135,12 +135,9 @@ const Aggrement = () => {
                           valign="middle"
                           bgcolor="#F0F0F0"
                         >
-                          <a
-                            href="javascript:onenter_redirect();"
-                            className="style95"
-                          >
+                          
                             ENTER
-                          </a>
+                          
                         </td>
                       </tr>
                       <tr>

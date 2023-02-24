@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { LoginIm, Signup, Logo } from "../.././Assets";
 function Login() {
   return (
@@ -19,13 +20,11 @@ function Login() {
                 colSpan={4}
                 align="left"
                 valign="top"
-                background
               >
                 <form
                   id="form1"
                   name="form_login"
                   method="post"
-                  action="login.php"
                 >
                   <table
                     width={908}
@@ -126,21 +125,8 @@ function Login() {
                                     type="text"
                                     id="email"
                                     name="email"
-                                    onkeypress="return submit_form(event, submit_login_form, 'form_login');"
                                     style={{ width: "225px", fontSize: "14pt" }}
                                   />{" "}
-                                </td>
-                                <td width={68} align="left" valign="bottom">
-                                  <div id="usersImgDiv">
-                                    <a href="javascript: showUsers();">
-                                      <img
-                                        src="images/arrow_down2.gif"
-                                        alt="Remembered Email List"
-                                        width={28}
-                                        border={0}
-                                      />
-                                    </a>
-                                  </div>
                                 </td>
                               </tr>
                             </tbody>
@@ -173,7 +159,6 @@ function Login() {
                             <input
                               type="password"
                               name="password"
-                              onkeypress="return submit_form(event, submit_login_form, 'form_login');"
                               style={{ width: "225px", fontSize: "14pt" }}
                             />
                           </label>
@@ -196,17 +181,13 @@ function Login() {
                                   valign="middle"
                                   bgcolor="#00B9FF"
                                 >
-                                  <a
-                                    href="http://www.hep2go.com/register_options.php?userRef=gciaake"
-                                    className="style99"
-                                  >
                                     <img
                                       src={Signup}
+                                      alt="sign up"
                                       width={103}
                                       height={32}
                                       border={0}
                                     />
-                                  </a>
                                 </td>
                               </tr>
                             </tbody>
@@ -261,17 +242,13 @@ function Login() {
                               <tr>
                                 <td width={134}>
                                   <div align="center">
-                                    <a
-                                      href="javascript:submit_login_form('form_login');"
-                                      className="style99"
-                                    >
                                       <img
                                         src={LoginIm}
+                                        alt="login"
                                         width={103}
                                         height={32}
                                         border={0}
                                       />
-                                    </a>
                                   </div>
                                 </td>
                               </tr>
@@ -284,12 +261,9 @@ function Login() {
                           align="left"
                           valign="middle"
                         >
-                          <a
-                            title="Go Back To Previous Page"
-                            href="javascript: history.back(1);"
-                          >
+                         <Link to="/">
                             Cancel
-                          </a>
+                         </Link>
                         </td>
                       </tr>
                       <tr>
@@ -300,9 +274,7 @@ function Login() {
                           &nbsp;
                         </td>
                         <td colSpan={2} align="center">
-                          <a href="index_forgot_password.php?userRef=gciaake">
                             Change or Forgot Password?
-                          </a>
                         </td>
                         <td align="right" />
                       </tr>
@@ -318,7 +290,6 @@ function Login() {
           </tbody>
         </table>
       </center>
-      <div id="usersDiv" />
     </div>
   );
 }

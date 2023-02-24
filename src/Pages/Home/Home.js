@@ -116,6 +116,7 @@ function Home() {
                           <a href="log-in-2.php?userRef=gciaake">
                             <img
                               src={loginimg}
+                              alt="login img"
                               width={52}
                               height={52}
                               border={0}
@@ -144,6 +145,7 @@ function Home() {
                             <span className="style137">
                               <img
                                 src={signup}
+                                alt="sign up img"
                                 width={52}
                                 height={52}
                                 border={0}
