@@ -50,3 +50,20 @@ a:active {
 .no-underline{
     text-decoration: none;	
 }
+<<<<<<< HEAD
+=======
+
+#Layer5 {
+    position: absolute;
+  
+    left: 34px;
+  
+    top: 51px;
+  
+    width: 0px;
+  
+    height: 11px;
+  
+    z-index: 2;
+  }
+>>>>>>> 400c6b173d5808ef678816450b9a4388ba9ef908

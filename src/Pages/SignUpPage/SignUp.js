@@ -20,38 +20,7 @@ function SignUp() {
   return (
     <div className="container-xxl">
       <center>
-        <div id="player1" className="player">
-          <video width={400} className="center" controls autoPlay>
-            <source
-              src="https://www.hep2go.com/video_samples/mobile-web-viewer-sample.mov"
-              type="video/mp4"
-            />
-          </video>
-        </div>
-        <div id="player2" className="player">
-          <video width={1100} className="center" controls autoPlay>
-            <source
-              src="https://www.hep2go.com/video_samples/copy-text-sample-A.mp4"
-              type="video/mp4"
-            />
-          </video>
-        </div>
-        <div id="player3" className="player">
-          <video width={1100} className="center" controls autoPlay>
-            <source
-              src="https://www.hep2go.com/video_samples/GT-A.mp4"
-              type="video/mp4"
-            />
-          </video>
-        </div>
-        <div id="player4" className="player">
-          <video width={1100} className="center" controls autoPlay>
-            <source
-              src="https://www.hep2go.com/video_samples/apply-A.mp4"
-              type="video/mp4"
-            />
-          </video>
-        </div>
+        
         <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
           <tbody>
             <tr>
@@ -79,7 +48,7 @@ function SignUp() {
                                 bgcolor="#F6F6F6"
                               >
                                 &nbsp;&nbsp;&nbsp;&nbsp;
-                                <a href="../index_b.php?userRef=gciaake">
+                                <Link to="/index-home">
                                   <img
                                     src={Logo}
                                     alt="logo"
@@ -87,7 +56,7 @@ function SignUp() {
                                     height={85}
                                     border={0}
                                   />{" "}
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                             <tr>
@@ -1767,7 +1736,7 @@ function SignUp() {
                                         bgcolor="#FFFFFF"
                                       >
                                         <div align="left">
-                                        <Link to="/new-member-form-free">
+                                          <Link to="/new-member-form-free">
                                             <img
                                               src={FreePlan}
                                               alt="free plan"
@@ -1797,9 +1766,10 @@ function SignUp() {
                                         bgcolor="#FFFFFF"
                                       >
                                         <div align="left">
-                                        <Link className="style90" to="/new-member-form-pro">
-                                            
-                                          
+                                          <Link
+                                            className="style90"
+                                            to="/new-member-form-pro"
+                                          >
                                             <img
                                               src={ProPlan}
                                               alt="Sign Up for a single Pro membership"
@@ -1985,12 +1955,13 @@ function SignUp() {
                                             </span>
                                             .<br />
                                             <p>
-                                              
+                                              <Link to="/upgrade-others">
                                                 <img
                                                   src={UpgradePro}
                                                   alt=""
                                                   border={0}
                                                 />
+                                              </Link>
                                               <br />
                                               <br />
                                             </p>

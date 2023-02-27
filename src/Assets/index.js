@@ -16,5 +16,17 @@ import Vdots from './Vdots.jpg'
 import blueline from './blue-line.jpg'
 import Hline from './Hline.jpg'
 import applybelow from './apply_below.png'
+import QrImg from './qr-delivery.png'
+import Support2 from './support-2-over.jpg'
+import Submit from './submit.jpg'
+import RightArrow from './arrow.jpg'
+import MyStuff from './my-stuff-requires.jpg'
+import ProfileDef from './profile_default.jpg'
+import ProfileImg from './profile_icon_selected.png'
+import ExerciesImg from './my_exercises_icon_selected.png'
+import FavImg from './my_favorites_icon_selected.png'
+import RoutinesImg from './my_routines_icon_selected.png'
+import FollowingImg from './following_icon_selected.png'
+import CreteExercise from './create_exercise_icon_selected.png'
 
-export { TryoutImg,loginimg,signup,LoginIm,Signup,Vdots,Hline,applybelow,blueline,UpgradePro,FreePlan,ProBadge,ProPlan,GreyTick,OrangeTick,LogoChange,HideMode,Logo}
+export {ProfileImg,ExerciesImg,FavImg,RoutinesImg,FollowingImg,CreteExercise, TryoutImg,loginimg,signup,RightArrow,MyStuff,ProfileDef,LoginIm,Signup,Vdots,QrImg,Support2,Hline,applybelow,blueline,Submit,UpgradePro,FreePlan,ProBadge,ProPlan,GreyTick,OrangeTick,LogoChange,HideMode,Logo}

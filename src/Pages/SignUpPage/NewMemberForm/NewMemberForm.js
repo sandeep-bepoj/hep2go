@@ -13,7 +13,9 @@ function NewMemberForm() {
           <table width={1024} height={536} border={0} bordercolor="orange" cellPadding={0} cellSpacing={0}>
             <tbody><tr>
                 <td width={693} height={536} colSpan={4} align="left" valign="top">
+
                   <form name="form_membership" method="POST" >
+
                     <table width={1018} border={0} bordercolor="green" cellPadding={3} cellSpacing={0}>
                       <tbody><tr>
                           <td width={7} height={23}>&nbsp;</td>

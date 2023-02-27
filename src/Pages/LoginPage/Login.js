@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { LoginIm, Signup, Logo } from "../.././Assets";
+
 function Login() {
   return (
     <div>
@@ -125,6 +126,7 @@ function Login() {
                                     type="text"
                                     id="email"
                                     name="email"
+                                 
                                     style={{ width: "225px", fontSize: "14pt" }}
                                   />{" "}
                                 </td>
@@ -261,9 +263,9 @@ function Login() {
                           align="left"
                           valign="middle"
                         >
-                         <Link to="/">
+                          
                             Cancel
-                         </Link>
+                        
                         </td>
                       </tr>
                       <tr>
@@ -274,7 +276,9 @@ function Login() {
                           &nbsp;
                         </td>
                         <td colSpan={2} align="center">
+                          <Link style={{color:'black'}} to="/forgot-password">
                             Change or Forgot Password?
+                          </Link>
                         </td>
                         <td align="right" />
                       </tr>

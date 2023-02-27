@@ -1,7 +1,7 @@
 import React from "react";
 import { Logo } from "../../Assets";
 import "./aggremnet.css";
-
+import { Link } from "react-router-dom";
 const Aggrement = () => {
   return (
     <>
@@ -39,9 +39,9 @@ const Aggrement = () => {
                         <td height={178}>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td align="center">
-                          <a href="index.php">
-                            <img src={Logo} alt="logo" width={254} height={84} />
-                          </a>
+                          <Link to="/index-home">
+                            <img src={Logo} width={254} height={84} />
+                          </Link>
                         </td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -135,9 +135,12 @@ const Aggrement = () => {
                           valign="middle"
                           bgcolor="#F0F0F0"
                         >
-                          
+                          <Link
+                            to="/index-home"
+                            className="style95"
+                          >
                             ENTER
-                          
+                          </Link>
                         </td>
                       </tr>
                       <tr>
