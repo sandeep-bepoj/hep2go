@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./signUp.css";
 import {
   Logo,
@@ -19,38 +20,7 @@ function SignUp() {
   return (
     <div className="container-xxl">
       <center>
-        <div id="player1" className="player">
-          <video width={400} className="center" controls autoPlay>
-            <source
-              src="https://www.hep2go.com/video_samples/mobile-web-viewer-sample.mov"
-              type="video/mp4"
-            />
-          </video>
-        </div>
-        <div id="player2" className="player">
-          <video width={1100} className="center" controls autoPlay>
-            <source
-              src="https://www.hep2go.com/video_samples/copy-text-sample-A.mp4"
-              type="video/mp4"
-            />
-          </video>
-        </div>
-        <div id="player3" className="player">
-          <video width={1100} className="center" controls autoPlay>
-            <source
-              src="https://www.hep2go.com/video_samples/GT-A.mp4"
-              type="video/mp4"
-            />
-          </video>
-        </div>
-        <div id="player4" className="player">
-          <video width={1100} className="center" controls autoPlay>
-            <source
-              src="https://www.hep2go.com/video_samples/apply-A.mp4"
-              type="video/mp4"
-            />
-          </video>
-        </div>
+        
         <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
           <tbody>
             <tr>
@@ -78,14 +48,14 @@ function SignUp() {
                                 bgcolor="#F6F6F6"
                               >
                                 &nbsp;&nbsp;&nbsp;&nbsp;
-                                <a href="../index_b.php?userRef=gciaake">
+                                <Link to="/index-home">
                                   <img
                                     src={Logo}
                                     width={257}
                                     height={85}
                                     border={0}
                                   />{" "}
-                                </a>
+                                </Link>
                               </td>
                             </tr>
                             <tr>
@@ -218,14 +188,14 @@ function SignUp() {
                                             <tr>
                                               <td width={294} height={26}>
                                                 <div align="center">
-                                                  <a href="index_new_member_form.php">
+                                                  <Link to="/new-member-form-free">
                                                     <img
                                                       src={FreePlan}
                                                       width={159}
                                                       height={41}
                                                       border={0}
                                                     />
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </td>
                                             </tr>
@@ -246,8 +216,8 @@ function SignUp() {
                                             <tr>
                                               <td width={294} height={26}>
                                                 <div align="center">
-                                                  <a
-                                                    href="index_new_member_form_pro.php?userRef=gciaake"
+                                                  <Link
+                                                    to="/new-member-form-pro"
                                                     className="style90"
                                                   >
                                                     <br />
@@ -258,7 +228,7 @@ function SignUp() {
                                                       height={41}
                                                       border={0}
                                                     />
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </td>
                                             </tr>
@@ -1549,10 +1519,7 @@ function SignUp() {
                                           using the power of a fully integrated
                                           Google Translate API feature with the
                                           click of a button. &nbsp;
-                                          <a
-                                            href="javascript:void(0)"
-                                            onclick="playMobileExample(3)"
-                                          >
+                                          <a href="javascript:void(0)">
                                             <br />
                                             <b>Watch Video</b>
                                           </a>
@@ -1600,10 +1567,7 @@ function SignUp() {
                                           use their smart phone for a user
                                           friendly smart phone layout using
                                           their phone's browser.{" "}
-                                          <a
-                                            href="javascript:void(0)"
-                                            onclick="playMobileExample(1)"
-                                          >
+                                          <a href="javascript:void(0)">
                                             {" "}
                                             <br />
                                             <b>Watch Video</b>
@@ -1767,14 +1731,14 @@ function SignUp() {
                                         bgcolor="#FFFFFF"
                                       >
                                         <div align="left">
-                                          <a href="index_new_member_form.php">
+                                          <Link to="/new-member-form-free">
                                             <img
                                               src={FreePlan}
                                               width={159}
                                               height={41}
                                               border={0}
                                             />
-                                          </a>
+                                          </Link>
                                           <br />
                                           <br />
                                           <span className="text20">
@@ -1796,9 +1760,9 @@ function SignUp() {
                                         bgcolor="#FFFFFF"
                                       >
                                         <div align="left">
-                                          <a
-                                            href="index_new_member_form_pro.php"
+                                          <Link
                                             className="style90"
+                                            to="/new-member-form-pro"
                                           >
                                             <img
                                               src={ProPlan}
@@ -1807,7 +1771,7 @@ function SignUp() {
                                               height={41}
                                               border={0}
                                             />
-                                          </a>
+                                          </Link>
                                           <br />
                                           <br />
                                           <span className="text20">
@@ -1987,13 +1951,13 @@ function SignUp() {
                                             </span>
                                             .<br />
                                             <p>
-                                              <a href="multiple_accounts_1.php?userRef=gciaake">
+                                              <Link to="/upgrade-others">
                                                 <img
                                                   src={UpgradePro}
                                                   alt=""
                                                   border={0}
                                                 />
-                                              </a>
+                                              </Link>
                                               <br />
                                               <br />
                                             </p>

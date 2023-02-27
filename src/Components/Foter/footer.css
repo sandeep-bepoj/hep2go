@@ -1,0 +1,34 @@
+a {
+  font-size: 12px;
+}
+.style4 {
+  color: #999999;
+  font-size: 12px;
+}
+
+.footerLink {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #777777;
+}
+
+a:link {
+  text-decoration: none;
+  font-style: normal;
+  color: #fff;
+}
+a:visited {
+  text-decoration: none;
+  font-style: normal;
+  color: #fff;
+}
+a:hover {
+  color: #777777;
+  text-decoration: none;
+  font-style: normal;
+}
+a:active {
+  font-style: normal;
+  text-decoration: none;
+  color: #00b9ff;
+}

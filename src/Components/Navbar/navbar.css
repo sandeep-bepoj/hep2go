@@ -1,0 +1,66 @@
+
+a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:active {
+    color: #FCFCFC;
+    text-decoration: none;
+}
+
+
+/*
+.profile_link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.profile_link:active {
+    color: #FFF;
+    text-decoration: none;
+
+.profile_link:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.profile_link:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+*/
+
+    
+#name-link{
+    color: #FFF;
+}
+#name-link:hover{
+    color: #fff;
+}
+
+.no-underline{
+    text-decoration: none;	
+}
+
+#Layer5 {
+    position: absolute;
+  
+    left: 34px;
+  
+    top: 51px;
+  
+    width: 0px;
+  
+    height: 11px;
+  
+    z-index: 2;
+  }

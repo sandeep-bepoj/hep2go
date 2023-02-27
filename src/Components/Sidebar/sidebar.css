@@ -1,0 +1,8 @@
+.sidebarelm{
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    gap: 5px;
+    padding: 2px;
+    cursor: pointer;
+}

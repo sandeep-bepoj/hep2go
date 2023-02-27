@@ -1,5 +1,6 @@
 import React from "react";
 import { LoginIm, Signup, Logo } from "../.././Assets";
+import {Link} from 'react-router-dom'
 function Login() {
   return (
     <div>
@@ -126,7 +127,7 @@ function Login() {
                                     type="text"
                                     id="email"
                                     name="email"
-                                    onkeypress="return submit_form(event, submit_login_form, 'form_login');"
+                                 
                                     style={{ width: "225px", fontSize: "14pt" }}
                                   />{" "}
                                 </td>
@@ -173,7 +174,6 @@ function Login() {
                             <input
                               type="password"
                               name="password"
-                              onkeypress="return submit_form(event, submit_login_form, 'form_login');"
                               style={{ width: "225px", fontSize: "14pt" }}
                             />
                           </label>
@@ -285,6 +285,7 @@ function Login() {
                           valign="middle"
                         >
                           <a
+                           style={{color:'black'}}
                             title="Go Back To Previous Page"
                             href="javascript: history.back(1);"
                           >
@@ -300,9 +301,9 @@ function Login() {
                           &nbsp;
                         </td>
                         <td colSpan={2} align="center">
-                          <a href="index_forgot_password.php?userRef=gciaake">
+                          <Link style={{color:'black'}} to="/forgot-password">
                             Change or Forgot Password?
-                          </a>
+                          </Link>
                         </td>
                         <td align="right" />
                       </tr>
