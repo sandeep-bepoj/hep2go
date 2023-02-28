@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Login from "./Pages/LoginPage/Login";
 import SignUp from "./Pages/SignUpPage/SignUp";
@@ -10,7 +10,6 @@ import NewMemberForm from "./Pages/SignUpPage/NewMemberForm/NewMemberForm";
 import IndexHome from "./Pages/Index/IndexHome";
 import Forgot from "./Pages/LoginPage/ForgotPassword/Forgot";
 import Upgrade from "./Pages/SignUpPage/Upgrade/Upgrade";
-import Sidebar from "./Components/Sidebar/Sidebar";
 import Profile from "./Pages/MYStuff/Profile/Profile";
 import MyExercise from "./Pages/MYStuff/My Exercises/MyExercise";
 import Following from "./Pages/MYStuff/Following/Following";

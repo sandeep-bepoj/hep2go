@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { CreteExercise, ExerciesImg, FavImg, FollowingImg, ProfileDef, ProfileImg, RoutinesImg } from '../../Assets';
 import './sidebar.css'
 function Sidebar() {

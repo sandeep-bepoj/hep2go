@@ -9,10 +9,10 @@ function MyStuffFooter() {
               <table width={1024} border={0} cellPadding={0} cellSpacing={0} bgcolor="#000000">
                 <tbody><tr>
                     <td width={536} height={34} bgcolor="#000000">&nbsp;</td>
-                    <td width={50} align="center" valign="bottom" bgcolor="#000000" className="style46"><a href="javascript: showLayoutMenu();" onmouseout="MM_swapImgRestore(); layoutMenuOut()" onmouseover="MM_swapImage('layoutImg','','https://www.hep2go.com/images/layout-2-over.gif',1)"><img src="https://www.hep2go.com/images/layout-2.gif" alt="Layout" name="layoutImg" width={32} height={32} border={0} id="layoutImg" /></a></td>
+                    <td width={50} align="center" valign="bottom" bgcolor="#000000" className="style46"><img src="https://www.hep2go.com/images/layout-2.gif" alt="Layout" name="layoutImg" width={32} height={32} border={0} id="layoutImg" /></td>
                     <td width={1} />
-                    <td width={50} align="center" valign="bottom" bgcolor="#000000" className="style46"><a href="javascript: showOptions();" onmouseout="MM_swapImgRestore(); optionsOut()" onmouseover="MM_swapImage('Image35','','https://www.hep2go.com/images/gear-over.gif',1); optionsOver();"><img src="https://www.hep2go.com/images/gear.gif" alt="Options Menu" name="Image35" width={32} height={32} border={0} id="optionsImg" /></a></td>
-                    <td width={50} align="center" valign="bottom" bgcolor="#000000"><a href="javascript: goPrintCard();" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image30','','https://www.hep2go.com/images/hep-editor-over.gif',1)"><img src="https://www.hep2go.com/images/hep-editor.gif" alt="HEP Editor" name="Image30" width={32} height={32} border={0} id="Image30" /></a></td>
+                    <td width={50} align="center" valign="bottom" bgcolor="#000000" className="style46"><img src="https://www.hep2go.com/images/gear.gif" alt="Options Menu" name="Image35" width={32} height={32} border={0} id="optionsImg" /></td>
+                    <td width={50} align="center" valign="bottom" bgcolor="#000000"><img src="https://www.hep2go.com/images/hep-editor.gif" alt="HEP Editor" name="Image30" width={32} height={32} border={0} id="Image30" /></td>
                   </tr>
                 </tbody></table>
             </td>
@@ -24,28 +24,28 @@ function MyStuffFooter() {
                   <tbody>
                     <tr>
                       <td width={22} align="left">
-                        <img src="https://www.hep2go.com/images/carousel_left.gif" width={22} height={83} style={{cursor: 'pointer'}} onclick="carouselLeft()" onmouseout="dimmerArrowOut(event)" title="Previous" />
+                        <img src="https://www.hep2go.com/images/carousel_left.gif" alt="" width={22} height={83} style={{cursor: 'pointer'}}  title="Previous" />
                         {/* <div className="carouselDimmer" style={{width: '22px', height: '83px', top: '554px', left: '163px', display: 'block'}} onmouseover="dimmerArrowLeftOver(event)" /> */}
                       </td>
                       <td align="left" valign="top">
-                        <div id="carouselDiv" style={{width: '980px', height: '83px', position: 'relative', overflow: 'hidden', backgroundColor: '#1E1E1E'}}><table width="100%" border={0} cellSpacing={0} cellPadding={0}><tbody><tr><td height={83} align="center" valign="middle" style={{backgroundColor: '#000000'}} ><img src="https://www.hep2go.com/images/carousel_empty.gif" width={632} height={53} /></td></tr></tbody></table></div>
+                        <div id="carouselDiv" style={{width: '980px', height: '83px', position: 'relative', overflow: 'hidden', backgroundColor: '#1E1E1E'}}><table width="100%" border={0} cellSpacing={0} cellPadding={0}><tbody><tr><td height={83} align="center" valign="middle" style={{backgroundColor: '#000000'}} ><img src="https://www.hep2go.com/images/carousel_empty.gif" alt="" width={632} height={53} /></td></tr></tbody></table></div>
                       </td>
                       <td width={22} align="right">
-                        <img src="https://www.hep2go.com/images/carousel_right.gif" width={22} height={83} style={{cursor: 'pointer'}} onclick="carouselRight()" onmouseout="dimmerArrowOut(event)" title="Next" />
+                        <img src="https://www.hep2go.com/images/carousel_right.gif" alt="" width={22} height={83} style={{cursor: 'pointer'}} title="Next" />
                         {/* <div className="carouselDimmer" style={{width: '22px', height: '83px', top: '554px', left: '1165px', display: 'block'}} onmouseover="dimmerArrowRightOver(event)" /> */}
                       </td>
                     </tr>
                   </tbody></table>
               </div>
-              <div id="optionsDiv" style={{width: '140px', border: '1px solid #0AB4FF'}} onmouseover="javascript: optionsOver();" onmouseout="javascript: optionsOut();">
+              <div id="optionsDiv" style={{width: '140px', border: '1px solid #0AB4FF'}}>
                 <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
                   <tbody><tr>
-                      <td height={40} align="left" valign="middle" style={{paddingLeft: '5px', fontSize: '14px'}} onmouseover="menuItemOver(event)" onmouseout="menuItemOut(event)" onclick="goRemoveAllExs()">
+                      <td height={40} align="left" valign="middle" style={{paddingLeft: '5px', fontSize: '14px'}}>
                         Remove All Exs
                       </td>
                     </tr>
                     <tr>
-                      <td height={50} align="left" valign="middle" style={{paddingLeft: '5px', fontSize: '14px'}} onmouseover="menuItemOver(event)" onmouseout="menuItemOut(event)" onclick="goLoadRoutine(); populateList(); ">
+                      <td height={50} align="left" valign="middle" style={{paddingLeft: '5px', fontSize: '14px'}} >
                         Load Routine
                       </td>
                     </tr>
@@ -86,7 +86,7 @@ function MyStuffFooter() {
                                 Load Routine
                               </td>
                               <td className="popupHeader">
-                                <div id="closeRoutineLoadDiv" className="closeDiv" onclick="closeRoutineLoad()" />
+                                <div id="closeRoutineLoadDiv" className="closeDiv" />
                               </td>
                             </tr>
                           </tbody></table>
@@ -103,10 +103,10 @@ function MyStuffFooter() {
                         <table width="100%" border={0} cellSpacing={0} cellPadding={0} className="text">
                           <tbody><tr>
                               <td align="right" valign="middle" style={{paddingTop: '30px', paddingRight: '10px', paddingBottom: '20px'}}>
-                                <input type="button" defaultValue="Load" onclick="doRoutineLoad()" style={{width: '60px'}} />
+                                <input type="button" defaultValue="Load"  style={{width: '60px'}} />
                               </td>
                               <td width={80} align="left" valign="middle" style={{paddingTop: '30px', paddingBottom: '20px'}}>
-                                <input type="button" defaultValue="Close" onclick="closeRoutineLoad()" style={{width: '60px'}} />
+                                <input type="button" defaultValue="Close" style={{width: '60px'}} />
                               </td>
                             </tr>
                           </tbody></table>
@@ -136,7 +136,7 @@ function MyStuffFooter() {
                                 Save Routine
                               </td>
                               <td className="popupHeader">
-                                <div id="closeRoutineSaveDiv" className="closeDiv" onclick="closeRoutineSave()" />
+                                <div id="closeRoutineSaveDiv" className="closeDiv" />
                               </td>
                             </tr>
                           </tbody></table>
@@ -153,10 +153,10 @@ function MyStuffFooter() {
                         <table width="100%" border={0} cellSpacing={0} cellPadding={0} className="text">
                           <tbody><tr>
                               <td align="right" valign="middle" style={{paddingTop: '30px', paddingRight: '10px', paddingBottom: '20px'}}>
-                                <input type="button" defaultValue="Save" onclick="doRoutineSave()" style={{width: '60px'}} />
+                                <input type="button" defaultValue="Save" style={{width: '60px'}} />
                               </td>
                               <td width={80} align="left" valign="middle" style={{paddingTop: '30px', paddingBottom: '20px'}}>
-                                <input type="button" defaultValue="Close" onclick="closeRoutineSave()" style={{width: '60px'}} />
+                                <input type="button" defaultValue="Close"  style={{width: '60px'}} />
                               </td>
                             </tr>
                           </tbody></table>
@@ -179,21 +179,21 @@ function MyStuffFooter() {
                     </tr>
                     <tr>
                       <td align="center" valign="middle" style={{paddingTop: '30px'}}>
-                        <div className="button buttonEnabled" onclick="doRoutinesMerge()">
+                        <div className="button buttonEnabled" >
                           Merge the routine with exercises already present
                         </div>
                       </td>
                     </tr>
                     <tr>
                       <td align="center" valign="middle" style={{paddingTop: '30px'}}>
-                        <div className="button buttonEnabled" onclick="doRoutinesLoad()">
+                        <div className="button buttonEnabled" >
                           Remove exercises already present and load the routine only
                         </div>
                       </td>
                     </tr>
                     <tr>
                       <td align="center" valign="middle" style={{paddingTop: '30px'}}>
-                        <div className="button buttonEnabled" onclick="doRoutinesCancel()">
+                        <div className="button buttonEnabled">
                           Cancel
                         </div>
                       </td>

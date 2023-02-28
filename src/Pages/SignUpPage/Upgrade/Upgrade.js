@@ -24,13 +24,13 @@ function Upgrade() {
             <td height={2125} colSpan={5} align="center" valign="top" bgcolor="#FFFFFF"><table width={1024} height={1493} border={0} cellPadding={0} cellSpacing={0}>
                 <tbody><tr>
                     <td width={4} height={101} rowSpan={2} align="center" valign="middle" bgcolor="#FFFFFF" />
-                    <td height={140} colSpan={3} align="left" valign="middle"><a href="../index_b.php?userRef=gciaake"><img src={Logo} width={257} height={85} border={0} /></a></td>
+                    <td height={140} colSpan={3} align="left" valign="middle"><img src={Logo} alt="" width={257} height={85} border={0} /></td>
                     <td width={6} rowSpan={4} bgcolor="#FFFFFF" />
                   </tr>
                   <tr>
                     <td height={122} colSpan={3} align="left" valign="middle"><br />
                       <br />
-                      <img src={MyStuff} /><br />
+                      <img src={MyStuff} alt="" /><br />
                       <br />
                     </td>
                   </tr>
@@ -138,7 +138,7 @@ function Upgrade() {
                             <td align="right" valign="bottom"><table width={466} border={0} cellSpacing={1} cellPadding={1}>
                                 <tbody><tr>
                                     <td width={147} height={46}><span className="style139">Get Started</span></td>
-                                    <td width={75} align="right"><div align="center"><span className="style139"><img src={RightArrow} width={51} height={25} /></span></div></td>
+                                    <td width={75} align="right"><div align="center"><span className="style139"><img src={RightArrow} alt="" width={51} height={25} /></span></div></td>
                                     <td width={234} align="center" valign="middle" bgcolor="#00B9FF" className="style147"><a href="../register_options.php?userRef=gciaake" id="suf">Sign Up FREE!</a></td>
                                   </tr>
                                 </tbody></table></td>
@@ -157,13 +157,13 @@ function Upgrade() {
                   </tr>
                 </tbody></table>
             </td>
-            <td width={8} colSpan={3} align="left" valign="top" bgcolor="#FFFFFF"><a href="../print_card_notice.php?userRef=gciaake" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','../pieces/print_icon_2_over.jpg',1)"><span className="style82"><strong /></span></a></td>
+            <td width={8} colSpan={3} align="left" valign="top" bgcolor="#FFFFFF"><span className="style82"><strong /></span></td>
           </tr>
           <tr>
             <td width={39} height={211} align="center" valign="top"><br /></td>
             <td width={489} align="left" valign="middle">&nbsp;</td>
             <td width={89} align="center" valign="top">&nbsp;</td>
-            <td width={328} align="right" valign="middle"><a href="javascript: history.back(1);" title="Go Back To Previous Page" className="style149" style={{color: '#003466'}}><u>Back To Previous Page</u></a></td>
+            <td width={328} align="right" valign="middle"><u>Back To Previous Page</u></td>
             <td width={41} align="center" valign="top">&nbsp;</td>
             <td height={211} align="center" valign="top">&nbsp;</td>
           </tr>

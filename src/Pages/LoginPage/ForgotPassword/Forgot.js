@@ -29,7 +29,7 @@ function Forgot() {
                         <tr>
                           <td height={119} align="center" valign="bottom" />
                           <td height={119} align="center" valign="bottom" />
-                          <td height={119} align="center" valign="bottom"><a href="index.php?userRef=gciaake"><img src={Logo} width={271} height={89} border={0} /></a></td>
+                          <td height={119} align="center" valign="bottom"><a href="index.php?userRef=gciaake"><img src={Logo} alt="" width={271} height={89} border={0} /></a></td>
                           <td>&nbsp;</td>
                           <td>&nbsp;</td>
                           <td>&nbsp;</td>
@@ -75,18 +75,18 @@ function Forgot() {
                           <td width={7} height={4} bgcolor="#F0F0F0" />
                           <td width={463} align="left" valign="middle" bgcolor="#F0F0F0" />
                           <td rowSpan={4} valign="middle">&nbsp;</td>
-                          <td rowSpan={2} valign="bottom"><a href="index_b.php?userRef=gciaake" /></td>
+                          <td rowSpan={2} valign="bottom"></td>
                           <td rowSpan={4}>&nbsp;</td>
                         </tr>
                         <tr>
                           <td height={45} colSpan={2} align="center" bgcolor="#F0F0F0"><table width={156} border={0} cellPadding={3}>
                               <tbody><tr>
-                                  <td width={146} height={41}><div align="center"><a href="/"><img src={Submit} width={103} height={32} border={0} /></a></div></td>
+                                  <td width={146} height={41}><div align="center"><a href="/"><img src={Submit} alt="" width={103} height={32} border={0} /></a></div></td>
                                 </tr>
                               </tbody></table>          <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="style90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong><strong><span className="style92">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;</strong></td>
                         </tr>
                         <tr>
-                          <td height={66} colSpan={2} align="center" valign="bottom"><a href="javascript: history.back(1);">Cancel</a><a href="index_enter.php?userRef=gciaake" className="style90" /></td>
+                          <td height={66} colSpan={2} align="center" valign="bottom">Cancel</td>
                           <td rowSpan={2} valign="bottom">&nbsp;</td>
                         </tr>
                         <tr>

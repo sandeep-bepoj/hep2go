@@ -2,8 +2,6 @@ import React from "react";
 import Navbar from "../../../Components/Navbar/Navbar";
 import "../../../Components/Navbar/navbar.css";
 import Sidebar from "../../../Components/Sidebar/Sidebar";
-
-
 import MyStuffFooter from "../../../Components/Foter/MystufFooter/MyStuffFooter";
 import Footer from "../../../Components/Foter/Footer";
 function Following() {
