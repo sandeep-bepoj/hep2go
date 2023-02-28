@@ -28,5 +28,9 @@ import FavImg from './my_favorites_icon_selected.png'
 import RoutinesImg from './my_routines_icon_selected.png'
 import FollowingImg from './following_icon_selected.png'
 import CreteExercise from './create_exercise_icon_selected.png'
+import Back from "./back-b.jpg"
+import Add from "./add-b.jpg"
+import Heart from "./heart.jpg"
+import Save from "./save-b.jpg"
 
-export {ProfileImg,ExerciesImg,FavImg,RoutinesImg,FollowingImg,CreteExercise, TryoutImg,loginimg,signup,RightArrow,MyStuff,ProfileDef,LoginIm,Signup,Vdots,QrImg,Support2,Hline,applybelow,blueline,Submit,UpgradePro,FreePlan,ProBadge,ProPlan,GreyTick,OrangeTick,LogoChange,HideMode,Logo}
+export {ProfileImg,ExerciesImg,FavImg,RoutinesImg,FollowingImg,CreteExercise, TryoutImg,loginimg,signup,RightArrow,MyStuff,ProfileDef,LoginIm,Signup,Vdots,QrImg,Support2,Hline,applybelow,blueline,Submit,UpgradePro,FreePlan,ProBadge,ProPlan,GreyTick,OrangeTick,LogoChange,HideMode,Logo, Back, Add, Heart, Save}

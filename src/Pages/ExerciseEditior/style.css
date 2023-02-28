@@ -1,0 +1,66 @@
+.style70 {
+    font-size: 16px;
+    font-family: arial;
+  }
+  
+  .style11
+    {
+    font-size: 12px;
+    color: #FFFFFF;
+    }
+  
+  .style58
+    {
+    font-size: 12px;
+    color: #0066CC;
+    }
+  
+  a:link
+    {
+    text-decoration: none;
+    font-size: 12px;
+    color: #00B9FF;
+    }
+  
+  a:visited
+    {
+    text-decoration: none;
+    color: #00B9FF;
+    }
+  
+  a:hover
+    {
+    text-decoration: underline;
+    color: #00B9FF;
+    }
+  
+  a:active
+    {
+    text-decoration: none;
+    color: #00B9FF;
+    }
+  
+  body
+    {
+    background-color: #FFFFFF;
+    background-repeat: repeat;
+    }
+  
+  a
+    {
+    font-size: 14px;
+    color: #666666;
+    }
+  
+  body,td,th
+    {
+    font-size: 12px;
+    }
+  
+  .style101 {color: #999999}
+  .style102 {color: #666666}
+  .style103 {color: #666666; font-size: 16px; }
+  .style107 {font-size: 12px; color: #666666; }
+  .style108 {color: #aaaaaa; font-size: 22px}
+  .style109 {color: #CCCCCC}
+  .style110 {color: #00B9FF; font-size: 22px}
