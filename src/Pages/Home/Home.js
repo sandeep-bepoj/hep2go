@@ -113,7 +113,7 @@ function Home() {
                           valign="middle"
                           bgcolor="#FFFFFF"
                         >
-                          <a href="log-in-2.php?userRef=gciaake">
+                          <Link to="/login">
                             <img
                               src={loginimg}
                               alt="login img"
@@ -121,7 +121,7 @@ function Home() {
                               height={52}
                               border={0}
                             />
-                          </a>
+                          </Link>
                         </td>
                         <td
                           width={297}
@@ -141,7 +141,7 @@ function Home() {
                           valign="middle"
                           bgcolor="#FFFFFF"
                         >
-                          <a href="register_options.php?userRef=' . $userRef . '">
+                          <Link to="/sign-up">
                             <span className="style137">
                               <img
                                 src={signup}
@@ -151,7 +151,7 @@ function Home() {
                                 border={0}
                               />
                             </span>
-                          </a>
+                          </Link>
                         </td>
                         <td align="left" valign="middle" bgcolor="#FFFFFF">
                           <Link to="/sign-up">
