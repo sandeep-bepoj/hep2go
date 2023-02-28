@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ExerciseSidebar from '../../Components/ExerciseSidebar/ExerciseSidebar'
 import Footer from '../../Components/Foter/Footer'
 import MyStuffFooter from '../../Components/Foter/MystufFooter/MyStuffFooter'
@@ -92,11 +93,13 @@ function Exercises() {
                                                 <table border={0} cellSpacing={0} cellPadding={0}>
                                                   <tbody><tr>
                                                       <td id="exTd_325" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                        <Link to="/exercise/edit">
                                                         <img alt="" id="exImg_325" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}}  src="https://media.hep2go.com/ex_images/000001-001000/121/image_000325.jpg?pgf=26961a39cdb0a7c4ce11e0cb04734008" width={121} height={121} border={0} />
+                                                        </Link>
                                                         <div id="magDiv_325" style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                           
                                                             <img src="images/mag.png" alt="" border={0} title="Click t Enlarge" />
-                                                        
+                                                            
                                                         </div>	
                                                         <div id="videoOverDiv_325" className="videoOverDiv"  style={{left: '406.578px', top: '227px', display: 'none'}}>
                                                           <img src="images/video_attached.png" alt="" width={22} height={22} title="Play Video" />
@@ -111,7 +114,9 @@ function Exercises() {
                                                         </div>
                                                       </td>
                                                       <td id="exTd_273" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img id="exImg_273" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}}  src="https://media.hep2go.com/ex_images/000001-001000/121/image_000273.jpg?pgf=bcf7ba3c382c5b87db5ef5af2214e596" alt="" width={121} height={121} border={0}  />
+                                                        </Link>
                                                         <div id="magDiv_273" style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                           
                                                             <img src="images/mag.png" alt="" border={0} title="Click t Enlarge" />
@@ -130,7 +135,9 @@ function Exercises() {
                                                         </div>
                                                       </td>
                                                       <td id="exTd_288" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img alt="" id="exImg_288" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}} src="https://media.hep2go.com/ex_images/000001-001000/121/image_000288.jpg?pgf=e659aa0e4c5a603f26612e1fc6467215" width={121} height={121} border={0} />
+                                                        </Link>
                                                         <div id="magDiv_288" style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                           
                                                             <img src="images/mag.png" border={0} alt="" title="Click t Enlarge" />
@@ -149,7 +156,9 @@ function Exercises() {
                                                         </div>
                                                       </td>
                                                       <td id="exTd_17388" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img id="exImg_17388" alt="" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}} src="https://media.hep2go.com/ex_images/017001-018000/121/image_017388.jpg?pgf=985015d3d18cd90cc3044d1768b45427" width={121} height={121} border={0}  />
+                                                        </Link>
                                                         <div id="magDiv_17388" style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                           
                                                             <img src="images/mag.png" alt="" border={0} title="Click t Enlarge" />
@@ -168,7 +177,9 @@ function Exercises() {
                                                         </div>
                                                       </td>
                                                       <td id="exTd_253" alt="" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img id="exImg_253" alt="" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}}  src="https://media.hep2go.com/ex_images/000001-001000/121/image_000253.jpg?pgf=25fafc438e869ee04d6061ce3f151d79" width={121} height={121} border={0}/>
+                                                        </Link>
                                                         <div id="magDiv_253"  style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                           
                                                             <img src="images/mag.png" alt="" border={0} title="Click t Enlarge" />
@@ -189,7 +200,9 @@ function Exercises() {
                                                     </tr>
                                                     <tr>
                                                       <td id="exTd_261" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img id="exImg_261" alt="" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}} src="https://media.hep2go.com/ex_images/000001-001000/121/image_000261.jpg?pgf=7f7e52d32f85f3b9bd3210455b1446f0" width={121} height={121} border={0} />
+                                                        </Link>
                                                         <div id="magDiv_261"    style={{position: 'absolute', display: 'none', top: '275px', left: '406.578px'}}>
                                                           
                                                             <img src="images/mag.png" alt="" border={0} title="Click t Enlarge" />
@@ -208,7 +221,9 @@ function Exercises() {
                                                         </div>
                                                       </td>
                                                       <td id="exTd_26176" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img id="exImg_26176" alt="" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}} src="https://media.hep2go.com/ex_images/026001-027000/121/image_026176.jpg?pgf=b56fa48cd1641d9b5a14f717e525c370" width={121} height={121} border={0} />
+                                                        </Link>
                                                         <div id="magDiv_26176"    style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                           
                                                             <img src="images/mag.png" alt="" border={0} title="Click t Enlarge" />
@@ -227,7 +242,9 @@ function Exercises() {
                                                         </div>
                                                       </td>
                                                       <td id="exTd_5360" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img id="exImg_5360" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}}  src="https://media.hep2go.com/ex_images/005001-006000/121/image_005360.jpg?pgf=866d220d99f227b53a72caac15857b53" alt="" width={121} height={111} border={0}  />
+                                                        </Link>
                                                         <div id="magDiv_5360"    style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                         
                                                             <img src="images/mag.png" alt="" border={0} title="Click t Enlarge" />
@@ -243,7 +260,9 @@ function Exercises() {
                                                         </div>
                                                       </td>
                                                       <td id="exTd_342" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img id="exImg_342" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}} src="https://media.hep2go.com/ex_images/000001-001000/121/image_000342.jpg?pgf=c897e132346a1486bc8ea4e93c8ae4d0" alt="" width={121} height={121} border={0}  />
+                                                        </Link>
                                                         <div id="magDiv_342"    style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                           
                                                             <img src="images/mag.png" alt="" border={0} title="Click t Enlarge" />
@@ -262,7 +281,9 @@ function Exercises() {
                                                         </div>
                                                       </td>
                                                       <td id="exTd_281" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img id="exImg_281" alt="" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}}  src="https://media.hep2go.com/ex_images/000001-001000/121/image_000281.jpg?pgf=fab53296ffe1ce272d53f0df67e5383f" width={121} height={121} border={0}  />
+                                                        </Link>
                                                         <div id="magDiv_281"    style={{position: 'absolute', display: 'none', top: '275px', left: '1002.58px'}}>
                                                           
                                                             <img src="images/mag.png" alt="" border={0} title="Click t Enlarge" />
@@ -283,7 +304,9 @@ function Exercises() {
                                                     </tr>
                                                     <tr>
                                                       <td id="exTd_327" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img id="exImg_327" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}}  src="https://media.hep2go.com/ex_images/000001-001000/121/image_000327.jpg?pgf=10106a7feb180e95185f4f71db487f68" alt="" width={121} height={121} border={0} />
+                                                        </Link>
                                                         <div id="magDiv_327"  style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                           
                                                             <img src="images/mag.png" border={0} alt="" title="Click t Enlarge" />
@@ -321,7 +344,9 @@ function Exercises() {
                                                         </div>
                                                       </td>
                                                       <td id="exTd_276" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img id="exImg_276" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}} src="https://media.hep2go.com/ex_images/000001-001000/121/image_000276.jpg?pgf=caa82c4d787a9a0ce6d49e6f85a196ba" width={121} height={121} alt="" border={0}  />
+                                                        </Link>
                                                         <div id="magDiv_276" style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                           
                                                             <img src="images/mag.png" alt="" border={0} title="Click t Enlarge" />
@@ -337,7 +362,9 @@ function Exercises() {
                                                         </div>
                                                       </td>
                                                       <td id="exTd_17386" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img id="exImg_17386" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}}  src="https://media.hep2go.com/ex_images/017001-018000/121/image_017386.jpg?pgf=24fe866707e181a6acc60178280f8b77" alt="" width={121} height={121} border={0}  />
+                                                        </Link>
                                                         <div id="magDiv_17386"  style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                           
                                                             <img src="images/mag.png" alt="" border={0} title="Click t Enlarge" />
@@ -356,7 +383,9 @@ function Exercises() {
                                                         </div>
                                                       </td>
                                                       <td id="exTd_277" width={121} align="center" valign="middle" style={{padding: '14px'}}>
+                                                      <Link to="/exercise/edit">
                                                         <img alt="" id="exImg_277" style={{cursor: 'pointer', border: '0px solid #9F9F9F'}}  src="https://media.hep2go.com/ex_images/000001-001000/121/image_000277.jpg?pgf=f496fa84848e522ee9818b2a24ccd300" width={121} height={121} border={0}  />
+                                                        </Link>
                                                         <div id="magDiv_277" style={{position: 'absolute', display: 'none', top: '0px', left: '0px'}}>
                                                           
                                                             <img alt="" src="images/mag.png" border={0} title="Click t Enlarge" />
