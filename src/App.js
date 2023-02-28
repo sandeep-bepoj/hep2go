@@ -16,6 +16,7 @@ import Following from "./Pages/MYStuff/Following/Following";
 import Favriotes from "./Pages/MYStuff/My Favorites/Favriotes";
 import Routines from "./Pages/MYStuff/My Routines/Routines";
 import Exercises from "./Pages/Exercises/Exercises";
+import ExcerciseEditior from "./Pages/ExerciseEditior/ExcerciseEditior";
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
         <Route path="/my-stuff/profile" element={<Profile />} />
         <Route path="/exercise" element={<Exercises />} />
 
+        <Route path="/excercise/:edit" element={<ExcerciseEditior />} />
       </Routes>
     </>
   );
