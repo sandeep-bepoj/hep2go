@@ -40,7 +40,7 @@ const Aggrement = () => {
                         <td>&nbsp;</td>
                         <td align="center">
                           <Link to="/index-home">
-                            <img src={Logo} width={254} height={84} />
+                            <img alt="logo" src={Logo} width={254} height={84} />
                           </Link>
                         </td>
                         <td>&nbsp;</td>
