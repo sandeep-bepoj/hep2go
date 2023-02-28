@@ -7,7 +7,7 @@ function Forgot() {
       <div>
         <div id="Layer5" />
         <center>
-          <table width={987} height={540} border={0} cellPadding={0} cellSpacing={0}>
+          <table width={"100vw"} height={"100vh"} border={0} cellPadding={0} cellSpacing={0}>
             <tbody><tr>
                 <td height={540} colSpan={4} align="left" valign="top">
                   <form action="forgot_password_notice.php" method="post" name="form_forgot_password" className="style90" id="form_forgot_password">

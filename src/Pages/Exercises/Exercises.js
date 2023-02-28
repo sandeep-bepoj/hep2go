@@ -27,8 +27,8 @@ function Exercises() {
                                 <table width={1024} border={0} cellPadding={1} cellSpacing={0}>
                                   <tbody><tr>
                                       <td width={310} bgcolor="#FFFFFF" className="style70" style={{paddingLeft: '10px'}}>Lumbar Thoracic&nbsp;&gt;&nbsp;All&nbsp;&gt;&nbsp;All</td>
-                                      <td width={48} bgcolor="#FFFFFF"><a href="javascript: showOrder();" style={{color: '#333333'}} >Sort By</a></td>
-                                      <td width={17} align="left" bgcolor="#FFFFFF"><a href="javascript: showOrder();"><img id="orderImg" src="pieces/down_arrow.jpg" width={13} height={11} border={0}   /></a></td>
+                                      <td width={48} bgcolor="#FFFFFF"><a href="/" style={{color: '#333333'}} >Sort By</a></td>
+                                      <td width={17} align="left" bgcolor="#FFFFFF"><a href=""><img id="orderImg" src="pieces/down_arrow.jpg" width={13} height={11} border={0}   /></a></td>
                                       <td width={94} align="left" bgcolor="#FFFFFF">Most Sent</td>
                                       <td width={545} align="right" bgcolor="#FFFFFF">
                                         <table border={0} cellSpacing={0} cellPadding={0}>

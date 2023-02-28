@@ -2,20 +2,20 @@ import React from "react";
 import "./home.css";
 import { TryoutImg, loginimg, signup } from "../.././Assets";
 import { Link } from "react-router-dom";
-
+import { Container } from "@mui/material";
 function Home() {
   return (
-    <div>
+    <Container maxWidth="xl">
       <div id="Layer5" />
-      {/* Adds nice icon when iphone or ipad adds website to the devices desktop - added by TJ */}
+
       <link rel="apple-touch-icon" href="app-icon-114.png" />
       <link rel="apple-touch-icon" sizes="72x72" href="app-icon-72.png" />
       <link rel="apple-touch-icon" sizes="114x114" href="app-icon-114.png" />
-      {/* End icon adder - added by TJ */}
+
       <center>
         <br />
         <table
-          width={1375}
+          width={"100%"}
           height={658}
           border={0}
           cellPadding={0}
@@ -106,6 +106,7 @@ function Home() {
                             </tbody>
                           </table>
                         </td>
+
                         <td
                           width={97}
                           height={44}
@@ -162,6 +163,7 @@ function Home() {
                           </Link>
                         </td>
                       </tr>
+                      
                       <tr>
                         <td height={2} colSpan={3} />
                       </tr>
@@ -175,19 +177,15 @@ function Home() {
                           <span className="style79">
                             <br />
                             <br />
+
                             <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <span className="style89">
+                            <span
+                              className="style89"
+                              style={{ color: "black" }}
+                            >
                               © 2010- 2023 HEP2go, Inc., All Rights Reserved
                             </span>
+                            <br />
                           </span>
                           <br />
                         </td>
@@ -201,7 +199,7 @@ function Home() {
         </table>
       </center>
       <div id="usersDiv" />
-    </div>
+    </Container>
   );
 }
 
