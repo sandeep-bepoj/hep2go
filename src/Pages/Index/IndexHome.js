@@ -55,7 +55,7 @@ function IndexHome() {
               </tr>
               <center>
                 <td width={340} align="center" height={169}>
-                  <Link to="/">
+                  <Link to="/exercise">
                     <img
                       src="https://www.hep2go.com/images/get-started-3.jpg"
                       alt="Start Building a Home Exercise Program"
@@ -68,7 +68,7 @@ function IndexHome() {
                   </Link>
                 </td>
                 <td width={340} align="center">
-                  <Link to="/">
+                  <Link to="/login">
                     <img
                       src="https://www.hep2go.com/images/community-2.jpg"
                       alt="Community Tool Box"
@@ -81,7 +81,7 @@ function IndexHome() {
                   </Link>
                 </td>
                 <td width={340} align="center">
-                  <Link to="/">
+                  <Link to="/login">
                     <img
                       src={Support2}
                       alt="Technical Support"

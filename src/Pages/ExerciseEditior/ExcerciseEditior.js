@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Logo, Back, Heart, Save, Add } from '../../Assets'
 
 const ExcerciseEditior = () => {
@@ -292,8 +293,10 @@ Time(s)&nbsp;</td>
 <table width="100%" border="0" cellpadding="0" cellspacing="0" style={{display: "table"}}>
 <tr>
 <td width="77" height="70" align="left" valign="bottom" bgcolor="#FFFFFF">
+<Link to="/exercise">
 <img src={Back} alt="" name="Image3" width="51" height="51" border="0" id="Image3" /><br />
-&nbsp;&nbsp;Back</td>
+&nbsp;&nbsp;Back
+</Link></td>
 <td width="77" align="center" valign="bottom" bgcolor="#FFFFFF">
 <img src={Save} alt="" name="Image3" width="51" height="51" border="0" id="Image3" />
 <br />
