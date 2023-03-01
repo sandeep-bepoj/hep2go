@@ -7,6 +7,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 function Exercises() {
   return (
     <div>
+      
         <Navbar/>
        <center>
         <table width="100%" border={0} cellPadding={0} cellSpacing={0}>
