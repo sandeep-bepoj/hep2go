@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { LoginIm, Signup, Logo } from "../.././Assets";
+import { LoginIm, Logo } from "../.././Assets";
 import { Container } from "@mui/material";
 
 function Login() {
