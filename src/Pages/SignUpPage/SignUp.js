@@ -18,7 +18,7 @@ import {
 } from "../../Assets";
 function SignUp() {
   return (
-    <div className="container-xxl">
+    <div className="container">
       <center>
         
         <table width="100%" border={0} cellSpacing={0} cellPadding={0}>
