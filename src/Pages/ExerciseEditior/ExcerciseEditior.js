@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Logo, Back, Heart, Save, Add } from '../../Assets'
+import { Logo} from '../../Assets'
 import {Container} from "@mui/material"
 const ExcerciseEditior = () => {
   return (

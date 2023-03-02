@@ -6,9 +6,9 @@ function MyStuffFooter() {
       <div style={{backgroundColor:"black"}}>
 
     <div style={{ display: 'flex', justifyContent: 'flex-end',paddingTop:"8px" }}>
-      <img src="https://www.hep2go.com/images/layout-2.gif" alt="Image 1" style={{marginRight:"10px"}} width="24" height="24" />
-      <img src="https://www.hep2go.com/images/gear.gif" alt="Image 2"style={{marginRight:"10px"}} width="24" height="24" />
-      <img src="https://www.hep2go.com/images/hep-editor.gif"style={{marginRight:"10px"}} alt="Image 3" width="24" height="24" />
+      <img src="https://www.hep2go.com/images/layout-2.gif" alt="Imge 1" style={{marginRight:"10px"}} width="24" height="24" />
+      <img src="https://www.hep2go.com/images/gear.gif" alt="Imae 2"style={{marginRight:"10px"}} width="24" height="24" />
+      <img src="https://www.hep2go.com/images/hep-editor.gif"style={{marginRight:"10px"}} alt="Imge 3" width="24" height="24" />
     </div>
     <div style={{position:"absolute"}}> </div>
     <div className="  d-flex justify-content-between align-items-center" >
