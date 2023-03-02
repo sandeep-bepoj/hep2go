@@ -1363,9 +1363,24 @@ body {
   font-size: 15px;
   padding: 4px;
 }
-
+.inputLogin{
+  width: 60%;
+  height: 20px;
+}
+.inputtext{
+  font-size: 18px;
+}
 @media screen and (min-width: 576px){
  .minusmargin{
   margin-left: -14px;
+ }
+ 
+}
+@media screen and (max-width: 576px){
+ .minusmargin{
+  margin-left: -14px;
+ }
+ .leftmarf{
+  margin-left: 15px !important;
  }
 }
