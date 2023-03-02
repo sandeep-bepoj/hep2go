@@ -17,13 +17,14 @@ import Favriotes from "./Pages/MYStuff/My Favorites/Favriotes";
 import Routines from "./Pages/MYStuff/My Routines/Routines";
 import Exercises from "./Pages/Exercises/Exercises";
 import ExcerciseEditior from "./Pages/ExerciseEditior/ExcerciseEditior";
+import Test from "./Pages/Test";
 
 
 const App = () => {
   return (
     <>    
       <Routes>
-         <Route path="/" element={<Home />} /> {/*responsive */}
+        <Route path="/" element={<Home />} /> {/*responsive */}
         <Route path="/login" element={<Login />} /> {/*responsive */}
         <Route path="/forgot-password" element={<Forgot />} />{/*responsive */}
         <Route path="/sign-up" element={<SignUp />} />
@@ -31,13 +32,14 @@ const App = () => {
         <Route path="/aggrement" element={<Aggrement />} /> {/*responsive */}
         <Route path="/new-member-form-free" element={<NewMemberForm />} />{/*responsive */}
         <Route path="/new-member-form-pro" element={<NewMemberForm />} />{/*responsive */}
-        <Route path="/index-home" element={<IndexHome />} />
-        <Route path="/my-stuff/my-exercises" element={<MyExercise />} />
-        <Route path="/my-stuff/following" element={<Following />} />
-        <Route path="/my-stuff/my-favorites" element={<Favriotes />} />
-        <Route path="/my-stuff/my-routines" element={<Routines />} />
-        <Route path="/my-stuff/profile" element={<Profile />} />
-        <Route path="/exercise" element={<Exercises />} />
+        <Route path="/index-home" element={<IndexHome />} />{/*responsive */}
+        <Route path="/my-stuff/my-exercises" element={<MyExercise />} />{/*responsive */}
+        <Route path="/my-stuff/following" element={<Following />} />{/*responsive */}
+        <Route path="/my-stuff/my-favorites" element={<Favriotes />} />{/*responsive */}
+        <Route path="/my-stuff/my-routines" element={<Routines />} />{/*responsive */}
+        <Route path="/my-stuff/profile" element={<Profile />} />{/*responsive */}
+        <Route path="/exercise" element={<Exercises />} />{/*responsive */}
+        <Route path="/test" element={<Test />} />
         <Route path="/exercise/:edit" element={<ExcerciseEditior />} />
 
       </Routes>

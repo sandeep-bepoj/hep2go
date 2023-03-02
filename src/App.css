@@ -1339,9 +1339,33 @@ body {
   width:  fit-content !important;
   overflow: hidden;
 }
-@media screen and (max-width: 768px) {
-  /* Hide the scrollbar */
-  .t {
-    overflow-y:hidden;
-  }
+
+.linr{
+  border-left: 1px solid;
+  border-right: 1px solid
+}
+.lin{
+  border-left: 1px solid;
+  /* border-right: 1px solid */
+}
+.border-boder{
+  border-bottom:  1px solid;;
+}
+.font-23{
+  color: #000000 !important;
+  font-size: 18px;
+}
+.bg-black{
+  color: white;
+  background-color: #000000;
+}
+.sidebarText{
+  font-size: 15px;
+  padding: 4px;
+}
+
+@media screen and (min-width: 576px){
+ .minusmargin{
+  margin-left: -14px;
+ }
 }
