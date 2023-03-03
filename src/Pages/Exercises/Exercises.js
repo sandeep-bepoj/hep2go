@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { Container } from "@mui/material";
-
+import{Link} from 'react-router-dom'
 import ExerciseSidebar from '../../Components/ExerciseSidebar/ExerciseSidebar'
 import Footer from '../../Components/Foter/Footer'
 import MyStuffFooter from '../../Components/Foter/MystufFooter/MyStuffFooter'
