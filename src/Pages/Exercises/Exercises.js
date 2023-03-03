@@ -62,26 +62,40 @@ function Exercises() {
     <div>
       <Navbar />
       <Container s>
-        <div className="m-2 row ">
-          <div className="col-md-6 col-sm-12 d-flex justify-content-between align-items-center">
+        <div className="m-2 row  ">
+          <div className="col-md-6 col-sm-12 d-flex justify-content-between align-items-center mt-2">
             Lumbar Thoracic {">"} All {">"} All
             <div>Sort By Most Sent</div>
           </div>
 
-          <div className="col-md-6 col-sm-12 d-flex justify-content-end align-items-center">
-            1 2 3 4 5 6 7 8
+          <div className="col-md-6 col-sm-12 d-flex justify-content-end fullwidth align-items-center mt-2">
+            
+            <div className='ml-2'> 1</div>
+            <div className='ml-2'>2</div>
+            <div className='ml-2'>3</div>
+            <div className='ml-2 '>4</div>
+            <div className='ml-2'>5</div>
+            <div className='ml-2'>6</div>
+            <div className='ml-2'>7</div>
+            <div className='ml-2'>8</div>
+            
+            {/* <div> */}
+
             <img
               src="https://www.hep2go.com/pieces/page_turn_Rt.jpg"
               alt=""
+              className='ml-2'
               width={23}
               height={23}
-            />
+              />
             <img
               src="https://www.hep2go.com/pieces/page_turner_end_Rt.jpg"
               alt=""
+              className='ml-2'
               width={23}
               height={23}
-            />
+              />
+              {/* </div> */}
           </div>
         </div>
         <div className="row">

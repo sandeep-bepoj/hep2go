@@ -53,7 +53,7 @@ function Login() {
                 Cancel
               </span>
             </div>
-            <div className="text-center mt-4 font-23">Change or Forgot Password?</div>
+           <Link to="/forgot-password"> <div className="text-center mt-4 font-23">Change or Forgot Password?</div></Link>
             {/* <div className="d-flex justify-content-center align-items-center"> <img src={LoginIm} alt=""/> cancel</div> */}
           </div>
           <div className="col-sm-12 col-md-5 m-2">

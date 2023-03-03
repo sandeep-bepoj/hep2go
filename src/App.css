@@ -1375,6 +1375,9 @@ background-color: #d6d6d6;
 cursor: pointer;
 color: #005ab0;
 }
+.ml-2{
+  margin-left: 15px !important;
+}
 .font-25{
   font-size: 30px;
   color: #006fdd;
@@ -1387,9 +1390,11 @@ color: #005ab0;
  
 }
 @media screen and (max-width: 576px){
- .minusmargin{
-  margin-left: -14px;
- }
+
+  .fullwidth{
+    display: flex;
+    justify-content: space-between;
+  }
  .leftmarf{
   margin-left: 15px !important;
  }

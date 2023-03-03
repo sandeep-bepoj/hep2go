@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Logo, MyStuff, RightArrow } from '../../../Assets'
 import './upgrade.css'
 function Upgrade() {
@@ -139,7 +140,7 @@ function Upgrade() {
                                 <tbody><tr>
                                     <td width={147} height={46}><span className="style139">Get Started</span></td>
                                     <td width={75} align="right"><div align="center"><span className="style139"><img src={RightArrow} alt="" width={51} height={25} /></span></div></td>
-                                    <td width={234} align="center" valign="middle" bgcolor="#00B9FF" className="style147"><a href="../register_options.php?userRef=gciaake" id="suf">Sign Up FREE!</a></td>
+                                    <td width={234} align="center" valign="middle" bgcolor="#00B9FF" className="style147"><Link to="/sign-up" id="suf">Sign Up FREE!</Link></td>
                                   </tr>
                                 </tbody></table></td>
                             <td align="right">&nbsp;</td>

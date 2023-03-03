@@ -64,9 +64,7 @@ function Forgot() {
             </td>
           </tr>
           <tr>
-            <td height={20} colSpan={2} align="left">
-              &nbsp;
-            </td>
+           
           </tr>
           <tr>
             <td height={18} colSpan={2} align="left">
@@ -81,7 +79,7 @@ function Forgot() {
               bgcolor="#333333"
               className="style89 pt-3"
             >
-              <strong>&nbsp;&nbsp;</strong>Reset/Verify your account
+              <strong>&nbsp;&nbsp;</strong><span style={{fontSize:"18px"}}>Reset/Verify your account</span>
             </td>
           </tr>
           <tr>
