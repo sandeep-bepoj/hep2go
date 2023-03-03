@@ -1370,6 +1370,16 @@ body {
 .inputtext{
   font-size: 18px;
 }
+.sidebarText1:hover{
+background-color: #d6d6d6;
+cursor: pointer;
+color: #005ab0;
+}
+.font-25{
+  font-size: 30px;
+  color: #006fdd;
+  font-weight: bold;
+}
 @media screen and (min-width: 576px){
  .minusmargin{
   margin-left: -14px;
@@ -1382,5 +1392,8 @@ body {
  }
  .leftmarf{
   margin-left: 15px !important;
+ }
+ .d-block{
+  display: block;
  }
 }

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {
   Container,
 } from "@mui/material";
-
+import {Link} from 'react-router-dom'
 import { LoginIm,Logo,Signup, ProfileDef } from "../../Assets";
 
 function Login() {
@@ -10,7 +10,7 @@ function Login() {
     <>
       <Container>
         <div className="d-flex justify-content-center align-items-center">
-          <img src={Logo} alt="" />
+        <Link to="/"> <img src={Logo} alt="" /></Link>
         </div>
         <div className="row justify-content-center">
           <div className="col-sm-12 col-md-5 m-2 ">
@@ -39,13 +39,16 @@ function Login() {
             </div>
             <div className=" d-flex align-items-center justify-content-center">
               {" "}
+              <Link to="/index-home">
+
               <img
                 src={LoginIm}
                 alt="login"
                 width={103}
                 height={32}
                 border={0}
-              />
+                />
+                </Link>
               <span style={{ marginLeft: "50px", fontSize: "18px" }}>
                 Cancel
               </span>
@@ -66,8 +69,9 @@ function Login() {
             >
             <div className="text-center mt-4 font-23">FREE and PRO Membership</div>
                 <div className=" d-flex align-items-center justify-content-center">
-
+                <Link to="/sign-up">
                 <img className="m-5" src={Signup} alt="" />
+                </Link>
                 </div>
 
             

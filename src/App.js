@@ -6,7 +6,6 @@ import SignUp from "./Pages/SignUpPage/SignUp";
 import Aggrement from "./Pages/Aggrement/Aggrement";
 import './App.css'
 import NewMemberForm from "./Pages/SignUpPage/NewMemberForm/NewMemberForm";
-
 import IndexHome from "./Pages/Index/IndexHome";
 import Forgot from "./Pages/LoginPage/ForgotPassword/Forgot";
 import Upgrade from "./Pages/SignUpPage/Upgrade/Upgrade";

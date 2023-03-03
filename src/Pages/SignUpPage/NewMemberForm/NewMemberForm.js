@@ -1,7 +1,7 @@
 import React from "react";
 import { Logo } from "../../../Assets";
 import "./newmemberform.css";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function NewMemberForm() {
   const location = useLocation();
@@ -34,7 +34,36 @@ function NewMemberForm() {
           <input type="text"style={{width:"50%",marginRight:"15px"}} /> Years Experience
         </div>
         <div className="m-2">
-          <input type="text"style={{width:"50%",marginRight:"15px"}}  />Occupation
+        <select name="occupation" onkeypress="return submit_form(event, submit_membership_form, 'form_membership');">
+        <option selected="selected">-----------------</option>
+        <option>Clinic Owner</option>
+        <option>Director of Rehab</option>
+        <option>Rehab Manager</option>
+        <option>Physical Therapist</option>
+        <option>PTA</option>
+        <option>PT Tech</option>
+        <option>PT Student</option>
+        <option>PTA Student</option>
+        <option>Occupational Therapist</option>
+        <option>COTA</option>
+        <option>OT Student</option>
+        <option>OTA Student</option>
+        <option>OT Tech</option>
+        <option>Kinesiologist</option>
+        <option>Orthopedic Doctor</option>
+        <option>Osteopathic Doctor</option>
+        <option>Other MD</option>
+        <option>Chiropractor</option>
+        <option>Chiro Tech</option>
+        <option>Chiro Student</option>
+        <option>Speech Therapist</option>
+        <option>Athletic Trainer</option>
+        <option>Athletic Trainer Student</option>
+        <option>University Professor</option>
+        <option>Clinical Instructor</option>
+        <option>Office Administrator</option>
+        <option>Other. . .</option>
+      </select>Occupation
         </div>
         <div className="m-2">
           <input type="text" style={{width:"50%",marginRight:"15px"}} />Work Setting  
@@ -56,7 +85,7 @@ function NewMemberForm() {
          
         </div>
         <div className="m-5">
-          <strong class="style93 m-3">Submit</strong><strong class="style93 m-3">Cancel</strong>
+         <Link to="/index-home"> <strong class="style93 m-3">Submit</strong><strong class="style93 m-3">Cancel</strong></Link>
         </div>
 
       </div>

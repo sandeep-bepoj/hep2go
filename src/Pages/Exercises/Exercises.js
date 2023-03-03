@@ -96,8 +96,11 @@ function Exercises() {
               {dummydata.map((elm) => {
                 return (
                   <>
+
                     <div className="col-sm-6 col-md-3 d-flex justify-content-center align-items-center mt-2">
+                  <Link to="/exercise/:edit">
                       <img src={elm.img} alt="" />
+                  </Link>
                     </div>
                   </>
                 );

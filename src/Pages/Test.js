@@ -25,7 +25,27 @@ import SignUp from "./SignUpPage/SignUp";
 function Test() {
   return (
     <>
-      for testing
+      <div className="doraemon-container">
+  <div className="head"></div>
+  <div className="body"></div>
+  <div className="belly"></div>
+  <div className="whiskers">
+    <div className="whisker"></div>
+    <div className="whisker"></div>
+    <div className="whisker"></div>
+    <div className="whisker"></div>
+    <div className="whisker"></div>
+    <div className="whisker"></div>
+    <div className="whisker"></div>
+    <div className="whisker"></div>
+  </div>
+  <div className="eyes"></div>
+  <div className="nose"></div>
+  <div className="mouth"></div>
+  <div className="pocket"></div>
+  <div className="bell"></div>
+</div>
+
     </>
   );
 }

@@ -113,11 +113,13 @@ function Navbar() {
           style={{ padding: "2px 8px 2px 8px" }}
         >
           <div>
+            <Link to="/upgrade-others">
             <img src="https://www.hep2go.com/images/gear-icon.jpg" alt="" />
+            </Link>
           </div>
           <div>
             {" "}
-            <span>Login </span>| Signup
+           <Link to="/login"> <span>Login </span></Link>| <Link to="/sign-up">Signup</Link>
           </div>
         </div>
       </AppBar>

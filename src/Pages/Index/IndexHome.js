@@ -10,13 +10,13 @@ function IndexHome() {
       <Navbar />
       <div>
         <Container>
-          <div className="d-flex justify-content-center align-items-center">
+          <div className="d-flex row justify-content-center align-items-center p-1">
             <Link to="/index-home">
               <img
                 src={QrImg}
                 className="img-fluid"
                 alt="QR code delivery of HEP"
-              />
+              /> b
             </Link>
           </div>
           <div>
@@ -27,8 +27,8 @@ function IndexHome() {
               for their patients and or clients.
             </div>
           </div>
-          <div className="d-row">
-            <Link to="/exercise">
+          <div className="row justify-content-between align-items-center p-1">
+            <div className="col-sm-12 col-md-4"><Link to="/exercise">
               <img
                 src="https://www.hep2go.com/images/get-started-3.jpg"
                 alt="Start Building a Home Exercise Program"
@@ -36,8 +36,8 @@ function IndexHome() {
                 className="img-fluid m-1"
                 id="Image8"
               />
-            </Link>
-            <Link to="/login">
+            </Link></div>
+            <div className="col-sm-12 col-md-4"> <Link to="/login">
               <img
                 src="https://www.hep2go.com/images/community-2.jpg"
                 alt="Community Tool Box"
@@ -45,8 +45,8 @@ function IndexHome() {
                 className="img-fluid  m-1"
                 id="Image11"
               />
-            </Link>
-            <Link to="/login">
+            </Link></div>
+            <div className="col-sm-12 col-md-4"><Link to="/login">
               <img
                 src={Support2}
                 alt="Technical Support"
@@ -54,7 +54,10 @@ function IndexHome() {
                 className="img-fluid  m-1"
                 id="Image10"
               />
-            </Link>
+            </Link></div>
+            
+           
+            
           </div>
         </Container>
 
